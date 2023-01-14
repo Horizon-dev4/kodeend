@@ -19,7 +19,7 @@ const Meta = () => {
         <meta name="author" content="" />
         <title>Kodeend</title>
         {/* favicon adding */}
-        <link rel="shortcut icon" href="./images/favicon.png" title="Favicon" />
+        <link rel="shortcut icon" href="/assets/images/favicon.png" title="Favicon" />
         {/* slider stylesheet */}
         <link
           rel="stylesheet"
@@ -30,7 +30,7 @@ const Meta = () => {
         <link
           rel="stylesheet"
           type="text/css"
-          href="assets/css/bootstrap.css"
+          href="/assets/css/bootstrap.css"
         />
         {/* fonts style */}
         <link
@@ -38,9 +38,9 @@ const Meta = () => {
           rel="stylesheet"
         />
         {/* Custom styles for this template */}
-        <link href="assets/css/style.css" rel="stylesheet" />
+        <link href="/assets/css/style.css" rel="stylesheet" />
         {/* responsive style */}
-        <link href="assets/css/responsive.css" rel="stylesheet" />
+        <link href="/assets/css/responsive.css" rel="stylesheet" />
       </Head>
     </>
   );

@@ -304,7 +304,7 @@ const Home = () => {
       <section className="contact_section layout_padding-bottom">
         <div className="container">
           <div className="heading_container">
-            <h2>Request A Call Back</h2>
+            <h2>Contact Us</h2>
           </div>
           <div className="">
             <div className="">

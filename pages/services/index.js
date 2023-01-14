@@ -74,7 +74,6 @@ const index = () => {
         {/* end service section */}
 
         <Footer />
-        
       </div>
     </>
   );
