@@ -13,6 +13,7 @@ const Home = () => {
         {/* header section strats */}
         <Header />
         {/* end header section */}
+
         {/* slider section */}
         <section className="slider_section">
           <div
