@@ -412,7 +412,7 @@ a:focus {
   padding-bottom: 20px;
 }
 
-.each_service p {
+.each_service .each_service_content {
   width: 62%;
   margin: 0 auto;
   padding: 40px;
@@ -420,6 +420,15 @@ a:focus {
   border-radius: 8px;
   text-align: justify;
 }
+
+/* .each_service p {
+  width: 62%;
+  margin: 0 auto;
+  padding: 40px;
+  box-shadow: 0px 1px 10px #371e71;
+  border-radius: 8px;
+  text-align: justify;
+} */
 
 .justify_content {
   text-align: justify;

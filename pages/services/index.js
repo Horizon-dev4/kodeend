@@ -55,6 +55,23 @@ const index = () => {
                   <Link href="/services/artificial-intelligence"> Read More </Link>
                 </div>
               </div>
+
+              <div className="box">
+                <div className="img-box">
+                  <Image src="/assets/images/artificial-intelligence.png" className="img1" width={100} height={80} alt="" />
+                  <Image src="/assets/images/artificial-intelligence.png" className="img2" width={100} height={80} alt="" />
+                </div>
+                <div className="detail-box">
+                  <h5>Natural Language Processing</h5>
+                  <p>
+                  It is a field of Artificial Intelligence that qualifies computers to analysis & understand the human language. 
+                  </p>
+                </div>
+                <div className="btn-box2">
+                  <Link href="/services/natural-language-processing"> Read More </Link>
+                </div>
+              </div>
+
               <div className="box">
                 <div className="img-box">
                   <Image src="/assets/images/s-2.png" className="img1" width={75} height={66} alt="" />
@@ -68,9 +85,42 @@ const index = () => {
                   </p>
                 </div>
                 <div className="btn-box2">
-                  <a href=""> Read More </a>
+                  <Link href="/services/web-development"> Read More </Link>
                 </div>
               </div>
+
+              <div className="box">
+                <div className="img-box">
+                  <Image src="/assets/images/s-2.png" className="img1" width={75} height={66} alt="" />
+                  <Image src="/assets/images/s-2-color.png" className="img2" width={75} height={66} alt="" />
+                </div>
+                <div className="detail-box">
+                  <h5>Block chain & Big Data</h5>
+                  <p>
+                  Blockchain and big data are two new technologies that are high on {`companies'`} priority lists.
+                  </p>
+                </div>
+                <div className="btn-box2">
+                  <Link href="/services/blockchain-&-bigdata"> Read More </Link>
+                </div>
+              </div>
+
+              <div className="box">
+                <div className="img-box">
+                  <Image src="/assets/images/s-2.png" className="img1" width={75} height={66} alt="" />
+                  <Image src="/assets/images/s-2-color.png" className="img2" width={75} height={66} alt="" />
+                </div>
+                <div className="detail-box">
+                  <h5>ERP</h5>
+                  <p>
+                  While there {`isn't`} a one-size-fits-all software solution for every corporate function, ERP technology is improving at connecting processes together. 
+                  </p>
+                </div>
+                <div className="btn-box2">
+                  <Link href="/services/erp"> Read More </Link>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>

@@ -21,11 +21,13 @@ const ArtificialIntelligence = () => {
             </div>
             <div className="each_service">
               <Image src="/assets/images/artificial-intelligence.jpg" className="img-fluid" width={700} height={500} alt="computer vision service"/>
-              <p>
-              Artificial Intelligence is vastly using now a days. Artificial Intelligence also known as Machine Intelligence. <br /><br />
-              Sports performance analysis, agriculture, business, Data driven ad solution, Demand forecasting and sales prediction, customer experience, supply chain & customer services, predictive analysis, Risk management & analysis, real time operations management, Fraud detection, knowledge creation, all kind of research & development, chat bots, etc. It can be uses from War to Agriculture, Shop to Kitchen, Education to Job, Sports to Hospital, everywhere in our daily life.
-
-              </p>
+              <div className="each_service_content">
+                <p>
+                Artificial Intelligence is vastly using now a days. Artificial Intelligence also known as Machine Intelligence. <br /><br />
+                Sports performance analysis, agriculture, business, Data driven ad solution, Demand forecasting and sales prediction, customer experience, supply chain & customer services, predictive analysis, Risk management & analysis, real time operations management, Fraud detection, knowledge creation, all kind of research & development, chat bots, etc. It can be uses from War to Agriculture, Shop to Kitchen, Education to Job, Sports to Hospital, everywhere in our daily life.
+                </p>
+              </div>
+              
             </div>
           </div>
         </section>
