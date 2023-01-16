@@ -54,9 +54,9 @@ const Footer = () => {
                 <div className="info_insta">
                   <h5>Legals</h5>
                   <div className="insta_container">
-                      <div><Link href="/">Terms and Conditions</Link></div>
-                      <div><Link href="/">Privacy Policy</Link></div>
-                      <div><Link href="/">GDPR</Link></div>                      
+                      <div><Link href="/terms-and-conditions">Terms and Conditions</Link></div>
+                      <div><Link href="/privacy-policy">Privacy Policy</Link></div>
+                      <div><Link href="/gdpr">GDPR</Link></div>                      
                   </div>
                 </div>
               </div>
