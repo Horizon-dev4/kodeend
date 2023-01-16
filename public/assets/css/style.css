@@ -407,6 +407,24 @@ a:focus {
   background-color: #6944db;
 }
 
+/* each service content */
+.each_service img {
+  padding-bottom: 20px;
+}
+
+.each_service p {
+  width: 62%;
+  margin: 0 auto;
+  padding: 40px;
+  box-shadow: 0px 1px 10px #371e71;
+  border-radius: 8px;
+  text-align: justify;
+}
+
+.justify_content {
+  text-align: justify;
+}
+
 .about_section {
   background-color: #f8f7fb;
 }
@@ -628,6 +646,11 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 10px;
+}
+
+.info_section .info_insta .insta_container > div > a:hover {
+  color: #fbb03b;
 }
 
 .info_section .info_insta .insta_container img {
@@ -668,6 +691,10 @@ a:focus {
   -ms-flex-align: center;
   align-items: center;
   margin: 20px 0;
+}
+
+.info_section .info_contact > div > p > a:hover {
+  color: #fbb03b;
 }
 
 .info_section .info_contact > div img {
@@ -721,7 +748,7 @@ a:focus {
 }
 
 .footer_section p {
-  color: #ffffff;
+  color: #fbb03b;
   margin: 0 auto;
   text-align: center;
   padding: 20px;
@@ -732,3 +759,14 @@ a:focus {
   color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
+
+.footer_custom_color {
+  color: #fbb03b;
+}
+
+.info_info h5,
+.info_contact h5,
+.info_insta h5,
+.info_form h5 {
+  color: #fbb03b;
+}

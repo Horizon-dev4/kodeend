@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Script from "next/script";
 import Footer from "./Footer";
 import Header from "./Header";
@@ -28,8 +29,8 @@ const Home = () => {
                     <div className="col-md-6">
                       <div className="detail_box">
                         <h1>
-                          WE HELP YOU TO MAKE <br />
-                          BETTER <span>SOFTWARE</span>
+                        Elevate Your Software <br /> 
+                        with <span>Kodeend IT Solutions</span>
                         </h1>
                         <p>
                           It is a long established fact that a reader will be
@@ -55,13 +56,11 @@ const Home = () => {
                     <div className="col-md-6">
                       <div className="detail_box">
                         <h1>
-                          WE HELP YOU TO MAKE <br />
-                          BETTER <span>SOFTWARE</span>
+                        Elevate Your Software <br /> 
+                        with <span>Kodeend IT Solutions</span>
                         </h1>
                         <p>
-                          It is a long established fact that a reader will be
-                          distracted by the readable content of a page when
-                          looking
+                        Unlock the full potential of your business with our web-apps, AI and data science expertise.
                         </p>
                         <a href="" className="">
                           Read More
@@ -70,7 +69,7 @@ const Home = () => {
                     </div>
                     <div className="col-md-5 offset-md-1">
                       <div className="img-box">
-                        <img src="/assets/images/slider-img.png" alt="" />
+                        <img src="/assets/images/slider-img2.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -82,23 +81,20 @@ const Home = () => {
                     <div className="col-md-6">
                       <div className="detail_box">
                         <h1>
-                          WE HELP YOU TO MAKE <br />
-                          BETTER <span>SOFTWARE</span>
+                        Elevate Your Software <br /> 
+                        with <span>Kodeend IT Solutions</span>
                         </h1>
                         <p>
-                          It is a long established fact that a reader will be
-                          distracted by the readable content of a page when
-                          looking
+                        Unlock new opportunities and insights with our AI and data science-driven web solutions.
                         </p>
                         <a href="" className="">
-                          {" "}
-                          Read More{" "}
+                          Read More
                         </a>
                       </div>
                     </div>
                     <div className="col-md-5 offset-md-1">
                       <div className="img-box">
-                        <img src="/assets/images/slider-img.png" alt="" />
+                        <img src="/assets/images/slider-img3.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -153,7 +149,7 @@ const Home = () => {
                 </p>
               </div>
               <div className="btn-box2">
-                <a href="./services/computervision.html"> Read More </a>
+                <Link href="services/computervision"> Read More </Link>
               </div>
             </div>
             <div className="box">
@@ -198,7 +194,7 @@ const Home = () => {
             </div>
           </div>
           <div className="btn-box">
-            <a href="service.html"> Read More </a>
+            <Link href="/services"> Read More </Link>
           </div>
         </div>
       </section>
@@ -218,12 +214,8 @@ const Home = () => {
                 <div className="heading_container">
                   <h2>About Us</h2>
                 </div>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit
+                <p className="justify_content">
+                At Kodeend IT Solutions, we specialize in utilizing cutting-edge technologies such as computer vision, artificial intelligence, and web development to provide innovative solutions for our clients. Our team of experts are dedicated to delivering high-quality services that help companies optimize their operations and drive growth. Whether {`you're`} looking to streamline processes, improve customer engagement, or gain valuable insights, we have the expertise and experience to help you achieve your goals. Contact us today to learn more about how we can help you take your business to the next level.
                 </p>
                 <a href=""> Read More </a>
               </div>

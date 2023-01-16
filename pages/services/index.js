@@ -1,3 +1,5 @@
+import Image from "next/image";
+import Link from "next/link";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Meta from "../../components/Meta";
@@ -21,8 +23,8 @@ const index = () => {
             <div className="service_container">
               <div className="box">
                 <div className="img-box">
-                  <img src="assets/images/s-1.png" className="img1" alt="" />
-                  <img src="assets/images/s-1-color.png" className="img2" alt="" />
+                  <Image src="/assets/images/computer-vision1.png" width={100} height={80} className="img1" alt="" />
+                  <Image src="/assets/images/computer-vision1.png" className="img2" width={100} height={80} alt="" />
                 </div>
                 <div className="detail-box">
                   <h5>Computer Vision</h5>
@@ -33,13 +35,14 @@ const index = () => {
                   </p>
                 </div>
                 <div className="btn-box2">
-                  <a href=""> Read More </a>
+                  <Link href="/services/computervision"> Read More </Link>
                 </div>
               </div>
+              
               <div className="box">
                 <div className="img-box">
-                  <img src="assets/images/s-3.png" className="img1" alt="" />
-                  <img src="assets/images/s-3-color.png" className="img2" alt="" />
+                  <Image src="/assets/images/artificial-intelligence.png" className="img1" width={100} height={80} alt="" />
+                  <Image src="/assets/images/artificial-intelligence.png" className="img2" width={100} height={80} alt="" />
                 </div>
                 <div className="detail-box">
                   <h5>Artificial Intelligence (AI)</h5>
@@ -49,13 +52,13 @@ const index = () => {
                   </p>
                 </div>
                 <div className="btn-box2">
-                  <a href=""> Read More </a>
+                  <Link href="/services/artificial-intelligence"> Read More </Link>
                 </div>
               </div>
               <div className="box">
                 <div className="img-box">
-                  <img src="assets/images/s-2.png" className="img1" alt="" />
-                  <img src="assets/images/s-2-color.png" className="img2" alt="" />
+                  <Image src="/assets/images/s-2.png" className="img1" width={75} height={66} alt="" />
+                  <Image src="/assets/images/s-2-color.png" className="img2" width={75} height={66} alt="" />
                 </div>
                 <div className="detail-box">
                   <h5>Web Development</h5>

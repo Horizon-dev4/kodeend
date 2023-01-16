@@ -1,3 +1,5 @@
+import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const Header = () => {
@@ -6,9 +8,9 @@ const Header = () => {
      <header className="header_section">
           <div className="container">
             <nav className="navbar navbar-expand-lg custom_nav-container">
-              <a className="navbar-brand" href="index.html">
-                <img src="/assets/images/logo.png" alt="kodeend" />
-              </a>
+              <Link className="navbar-brand" href="/">
+                <Image src="/assets/images/logo.png" width={130} height={47} alt="kodeend" />
+              </Link>
               <button
                 className="navbar-toggler"
                 type="button"
@@ -28,30 +30,31 @@ const Header = () => {
               >
                 <div className="d-flex ml-auto flex-column flex-lg-row align-items-center">
                   <ul className="navbar-nav">
-                    <li className="nav-item active">
-                      <a className="nav-link" href="index.html">
-                        Home <span className="sr-only">(current)</span>
-                      </a>
+                    <li className="nav-item">
+                      <Link className="nav-link" href="/">
+                        Home
+                        {/* Home <span className="sr-only">(current)</span> */}
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="about.html">
+                      <Link className="nav-link" href="/about">
                         About
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="service.html">
+                      <Link className="nav-link" href="/services">
                         Service
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="portfolio.html">
+                      <Link className="nav-link" href="/portfolio">
                         Portfolio
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="contact.html">
+                      <Link className="nav-link" href="/contact">
                         Contact
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>

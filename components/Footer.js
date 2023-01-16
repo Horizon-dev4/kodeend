@@ -1,3 +1,5 @@
+import Image from "next/image"
+import Link from "next/link"
 
 const Footer = () => {
   return (
@@ -11,109 +13,73 @@ const Footer = () => {
                 <div className="info_info">
                   <h5>Informations</h5>
                   <p>
-                    ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt
+                  Transform your business with our AI-powered web applications and data science services.
                   </p>
                 </div>
               </div>
               <div className="col-md-3 mb-4 mb-md-0 d-flex d-md-block flex-column align-items-center text-center text-md-left">
                 <div className="info_contact">
-                  <h5>About Shop</h5>
+                  <h5>Address</h5>
                   <div>
                     <div className="img-box">
-                      <img
-                        src="/assets/images/location-white.png"
-                        width="18px"
-                        alt=""
-                      />
+                      <Image src="/assets/images/location-white.png" width={18} height={24} alt="google map" />
                     </div>
-                    <p>Address</p>
+                    <p>
+                    Räfsgatan 36, <br/>21633 Limhamn, <br/>Sweden
+                    </p>
                   </div>
                   <div>
                     <div className="img-box">
-                      <img
+                      <Image
                         src="/assets/images/telephone-white.png"
-                        width="12px"
-                        alt=""
+                        width={12} height={22}
+                        alt="contact number"
                       />
                     </div>
-                    <p>+01 1234567890</p>
+                    <p><a href="tel: +46 708698276">+46 708698276</a></p>
                   </div>
                   <div>
                     <div className="img-box">
-                      <img
+                      <Image
                         src="/assets/images/envelope-white.png"
-                        width="18px"
+                        width={18} height={15}
                         alt=""
                       />
                     </div>
-                    <p>demo@gmail.com</p>
+                    <p><a href="mailto: info@kodeend.com">info@kodeend.com</a></p>
                   </div>
                 </div>
               </div>
               <div className="col-md-3 mb-4 mb-md-0 d-flex d-md-block flex-column align-items-center text-center text-md-left">
                 <div className="info_insta">
-                  <h5>Instagram</h5>
+                  <h5>Legals</h5>
                   <div className="insta_container">
-                    <div>
-                      <a href="">
-                        <div className="insta-box b-1">
-                          <img src="/assets/images/insta.png" alt="" />
-                        </div>
-                      </a>
-                      <a href="">
-                        <div className="insta-box b-2">
-                          <img src="/assets/images/insta.png" alt="" />
-                        </div>
-                      </a>
-                    </div>
-                    <div>
-                      <a href="">
-                        <div className="insta-box b-3">
-                          <img src="/assets/images/insta.png" alt="" />
-                        </div>
-                      </a>
-                      <a href="">
-                        <div className="insta-box b-4">
-                          <img src="/assets/images/insta.png" alt="" />
-                        </div>
-                      </a>
-                    </div>
-                    <div>
-                      <a href="">
-                        <div className="insta-box b-3">
-                          <img src="/assets/images/insta.png" alt="" />
-                        </div>
-                      </a>
-                      <a href="">
-                        <div className="insta-box b-4">
-                          <img src="/assets/images/insta.png" alt="" />
-                        </div>
-                      </a>
-                    </div>
+                      <div><Link href="/">Terms and Conditions</Link></div>
+                      <div><Link href="/">Privacy Policy</Link></div>
+                      <div><Link href="/">GDPR</Link></div>                      
                   </div>
                 </div>
               </div>
               <div className="col-md-3 d-flex d-md-block flex-column align-items-center text-center text-md-left">
                 <div className="info_form">
-                  <h5>Newsletter</h5>
-                  <form action="">
+                  <h5>Social Links</h5>
+                  {/* <form action="">
                     <input type="email" placeholder="Enter your email" />
                     <button>Subscribe</button>
-                  </form>
+                  </form> */}
                   <div className="social_box">
                     <a href="">
-                      <img src="/assets/images/fb.png" alt="" />
+                      <Image src="/assets/images/fb.png" width={30} height={30} alt="Facebook" />
                     </a>
                     <a href="">
-                      <img src="/assets/images/twitter.png" alt="" />
+                      <Image src="/assets/images/twitter.png" width={30} height={30} alt="Twitter" />
                     </a>
                     <a href="">
-                      <img src="/assets/images/linkedin.png" alt="" />
+                      <Image src="/assets/images/linkedin.png" width={30} height={30} alt="Linked In" />
                     </a>
-                    <a href="">
-                      <img src="/assets/images/youtube.png" alt="" />
-                    </a>
+                    {/* <a href="">
+                      <Image src="/assets/images/youtube.png" width={30} height={30} alt="YouTube" />
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -126,9 +92,9 @@ const Footer = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-7 col-md-9 mx-auto">
-                <p>
-                  © 2020 All Rights Reserved By
-                  <a href="#">Kodeend</a>
+                <p className="footer_custom_color">
+                  © 2020 All Rights Reserved By 
+                   KodeEnd IT Solutions AB
                 </p>
               </div>
             </div>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Meta from "../../components/Meta";
@@ -18,7 +19,8 @@ const computervision = () => {
             <div className="heading_container">
               <h2>Computer Vision</h2>
             </div>
-            <div>
+            <div className="each_service">
+              <Image src="/assets/images/computer-vision.jpg" className="img-fluid" width={700} height={600} alt="computer vision service"/>
               <p>
                 Computer vision is a field of Artificial Intelligence (Ai) that
                 unlock insights from digital images, videos and other visual
@@ -28,7 +30,7 @@ const computervision = () => {
                 away they are, whether they are moving and whether there is
                 something wrong in an image. Computer vision see and understand
                 the world through the eyes of machine. For that reason, Computer
-                vision need lots of data. Deep learning (DL) &amp; a
+                vision need lots of data. <br/><br/> Deep learning (DL) &amp; a
                 Convolutional Neural Network (CNN) these two essential
                 technologies are used to analysis and unlock the power of Ai
                 vision for your business. AI powered computer vision create
