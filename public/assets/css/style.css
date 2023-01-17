@@ -773,6 +773,10 @@ a:focus {
   color: #fbb03b;
 }
 
+.each_service_content p a:visited {
+  color: #6944db;
+}
+
 .info_info h5,
 .info_contact h5,
 .info_insta h5,

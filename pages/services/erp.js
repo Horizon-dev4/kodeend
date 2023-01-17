@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Meta from "../../components/Meta";
@@ -17,7 +18,7 @@ const ERP = () => {
         <section className="service_section layout_padding">
           <div className="container">
             <div className="heading_container">
-              <h2>Block chain & Big Data</h2>
+              <h2>ERP</h2>
             </div>
             <div className="each_service">
               <Image
@@ -30,13 +31,19 @@ const ERP = () => {
 
               <div className="each_service_content">
                 <p>
-                ERP is the abbreviation for enterprise resource planning. {`It's`} software that keeps track of a {`company's`} finances, supply chain, operations, commerce, reporting, manufacturing, and human resources. It is the coordinated administration of key business operations, which is often done in real time and mediated by software and technology. Most businesses have a financial and operational system in place, but most other software {`can't`} help with future business growth or go beyond ordinary business activities. Companies should be able to scale up as their needs change, and their systems should be able to keep up with them. {`We'll`} describe ERP and why {`it's`} important to have software that can keep up with your changing business needs.
+                ERP, or Enterprise Resource Planning, is a type of software that helps businesses manage various aspects of their operations, such as finances, supply chain, manufacturing, human resources, and more. It enables companies to coordinate and automate key business processes, often in real-time, in order to improve efficiency and make better decisions.
                 <br /><br />
-                While there {`isn't`} a one-size-fits-all software solution for every corporate function, ERP technology is improving at connecting processes together. {`You'll`} have the intelligence, acceleration, and agility you need to start optimizing your operations once your processes, systems, and data are connected.
+                ERP systems provide a centralized platform that integrates data from different departments and functions of the organization, allowing for improved collaboration and data-driven decision making. With the help of advanced technologies such as <Link href="/services/artificial-intelligence">Artificial Intelligence</Link> (AI) and <Link href="https://www.ibm.com/topics/machine-learning" target="_blank" >Machine Learning</Link> (ML), ERP systems can provide valuable insights to help companies achieve peak performance and stay ahead of market changes.
                 <br /><br />
-                {`Here's`} three ways ERP can improve your business:
+                ERP solutions are designed to be flexible and adaptable to changing business needs. They can be easily configured and customized to suit the specific requirements of different industries and organizations. This allows companies to scale up and evolve their operations as their needs change, without the need for expensive and time-consuming system upgrades.
+                <br /><br />
+                ERP systems can also help companies increase the speed and efficiency of their operations by providing employees with greater visibility and control over key processes. By integrating and automating key business functions, ERP solutions can streamline operations and improve productivity, allowing employees to focus on creating value for the organization.
+                <br /><br />
+                Overall, ERP systems provide a powerful tool for managing and optimizing business operations, enabling companies to improve efficiency, make better decisions, and stay ahead of market changes. With the help of advanced technologies such as AI and ML, ERP solutions are becoming more intelligent, agile, and adaptable, providing a competitive edge to businesses of all sizes and industries
+                <br /><br />
+                Here is three ways ERP can improve your business:
                 </p>
-                <ul>
+                <ul className="pl-4">
                     <li>
                         Assist in achieving peak performance. Artificial intelligence (AI) solutions give you access to insights that help you make better decisions and identify methods to improve operational performance in the future.
                     </li>

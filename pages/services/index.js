@@ -48,7 +48,7 @@ const index = () => {
                   <h5>Artificial Intelligence (AI)</h5>
                   <p>
                     Artificial Intelligence is vastly using now a days.
-                    Artificial Intelligence also known as Machine Intelligence.
+                    Artificial Intelligence also known as rMachine Intelligence.
                   </p>
                 </div>
                 <div className="btn-box2">
@@ -58,8 +58,8 @@ const index = () => {
 
               <div className="box">
                 <div className="img-box">
-                  <Image src="/assets/images/artificial-intelligence.png" className="img1" width={100} height={80} alt="" />
-                  <Image src="/assets/images/artificial-intelligence.png" className="img2" width={100} height={80} alt="" />
+                  <Image src="/assets/images/nlp.png" className="img1" width={100} height={80} alt="" />
+                  <Image src="/assets/images/nlp.png" className="img2" width={100} height={80} alt="" />
                 </div>
                 <div className="detail-box">
                   <h5>Natural Language Processing</h5>
@@ -74,11 +74,11 @@ const index = () => {
 
               <div className="box">
                 <div className="img-box">
-                  <Image src="/assets/images/s-2.png" className="img1" width={75} height={66} alt="" />
-                  <Image src="/assets/images/s-2-color.png" className="img2" width={75} height={66} alt="" />
+                  <Image src="/assets/images/web.png" className="img1" width={75} height={70} alt="web development" />
+                  <Image src="/assets/images/web.png" className="img2" width={75} height={70} alt="web development" />
                 </div>
                 <div className="detail-box">
-                  <h5>Web Development</h5>
+                  <h5 style={{'margin-top':'30px'}}>Web Development</h5>
                   <p>
                     The term web development refers to the process of designing,
                     developing, and maintaining websites.
@@ -91,8 +91,8 @@ const index = () => {
 
               <div className="box">
                 <div className="img-box">
-                  <Image src="/assets/images/s-2.png" className="img1" width={75} height={66} alt="" />
-                  <Image src="/assets/images/s-2-color.png" className="img2" width={75} height={66} alt="" />
+                  <Image src="/assets/images/blockchain.png" className="img1" width={75} height={76} alt="" />
+                  <Image src="/assets/images/blockchain.png" className="img2" width={75} height={76} alt="" />
                 </div>
                 <div className="detail-box">
                   <h5>Block chain & Big Data</h5>
@@ -107,8 +107,8 @@ const index = () => {
 
               <div className="box">
                 <div className="img-box">
-                  <Image src="/assets/images/s-2.png" className="img1" width={75} height={66} alt="" />
-                  <Image src="/assets/images/s-2-color.png" className="img2" width={75} height={66} alt="" />
+                  <Image src="/assets/images/erp.png" className="img1" width={75} height={66} alt="" />
+                  <Image src="/assets/images/erp2.png" className="img2" width={75} height={66} alt="" />
                 </div>
                 <div className="detail-box">
                   <h5>ERP</h5>

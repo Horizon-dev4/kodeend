@@ -65,6 +65,10 @@
     width: 100%;
     padding: 40px 20px;
   }
+
+  .service_section .service_container .box .detail-box {
+    height: 35vh;
+  }
 }
 
 @media (max-width: 576px) {

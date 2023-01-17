@@ -151,7 +151,7 @@ const TermsAndConditions = () => {
                 <h2>Contact Us</h2>
                 <p>If you have any questions about these Terms and Conditions, You can contact us:</p>
                 <ul className="pl-4">
-                    <li>By email:info@kodeend.com</li>
+                    <li>By email: info@kodeend.com</li>
                     <li>By visiting this page on our website <a href="#">www.kodeend.com</a>.</li>
                     <li>By phone number: 0046 708698276</li>
                 </ul>

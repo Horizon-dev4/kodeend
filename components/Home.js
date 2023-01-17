@@ -6,6 +6,7 @@ import Header from "./Header";
 import Meta from "./Meta";
 
 const Home = () => {
+  
   return (
     <>
       <Meta />
@@ -303,19 +304,20 @@ const Home = () => {
               <div className="row">
                 <div className="col-md-9 mx-auto">
                   <div className="contact-form">
-                    <form action="">
+                    <form name="submit-to-google-sheet">
                       <div>
-                        <input type="text" placeholder="Full Name " />
+                        <input type="text" name="name" placeholder="Full Name " />
                       </div>
                       <div>
-                        <input type="text" placeholder="Phone Number" />
+                        <input type="number" name="phone" placeholder="Phone Number" />
                       </div>
                       <div>
-                        <input type="email" placeholder="Email Address" />
+                        <input type="email" name="email" placeholder="Email Address" />
                       </div>
                       <div>
                         <input
                           type="text"
+                          name="message"
                           placeholder="Message"
                           className="input_message"
                         />
@@ -336,12 +338,15 @@ const Home = () => {
       {/* end contact section */}
       
       <Footer />
-
+      
+      {/* form data validation script */}
+      
+      {/* bootstrap scripts */}
       <Script
         type="text/javascript"
         src="/assets/js/jquery-3.4.1.min.js"
-      ></Script>
-      <Script type="text/javascript" src="/assets/js/bootstrap.js"></Script>
+      />
+      <Script type="text/javascript" src="/assets/js/bootstrap.js" />
     </>
   );
 };
