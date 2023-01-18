@@ -33,9 +33,7 @@ const Home = () => {
                         with <span>Kodeend IT Solutions</span>
                         </h1>
                         <p>
-                          It is a long established fact that a reader will be
-                          distracted by the readable content of a page when
-                          looking
+                        Optimize your operations and decision making with our AI and data science services
                         </p>
                         <Link href="/about" className="">
                           Read More
@@ -56,8 +54,9 @@ const Home = () => {
                     <div className="col-md-6">
                       <div className="detail_box">
                         <h1>
-                        Elevate Your Software <br /> 
-                        with <span>Kodeend IT Solutions</span>
+                        <span>Kodeend IT </span>is your Intelligence solutions
+                         {/* <br /> 
+                        with <span>Kodeend IT Solutions</span> */}
                         </h1>
                         <p>
                         Unlock the full potential of your business with our web-apps, AI and data science expertise.
@@ -81,7 +80,7 @@ const Home = () => {
                     <div className="col-md-6">
                       <div className="detail_box">
                         <h1>
-                        Elevate Your Software <br /> 
+                        Empower your business <br /> 
                         with <span>Kodeend IT Solutions</span>
                         </h1>
                         <p>
@@ -202,10 +201,10 @@ const Home = () => {
                 <div className="heading_container">
                   <h2>About Us</h2>
                 </div>
-                <p className="justify_content">
+                <p className="">
                 At Kodeend IT Solutions, we specialize in utilizing cutting-edge technologies such as computer vision, artificial intelligence, and web development to provide innovative solutions for our clients. Our team of experts are dedicated to delivering high-quality services that help companies optimize their operations and drive growth. Whether {`you're`} looking to streamline processes, improve customer engagement, or gain valuable insights, we have the expertise and experience to help you achieve your goals. Contact us today to learn more about how we can help you take your business to the next level.
                 </p>
-                <a href=""> Read More </a>
+                <Link href="/about"> Read More </Link>
               </div>
             </div>
           </div>
@@ -213,7 +212,7 @@ const Home = () => {
       </section>
       {/* end about section */}
       {/* portfolio section */}
-      <section className="portfolio_section layout_padding">
+      {/* <section className="portfolio_section layout_padding">
         <div className="container">
           <div className="heading_container">
             <h2>Portfolio</h2>
@@ -278,10 +277,10 @@ const Home = () => {
             <a href=""> View More </a>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* end portfolio section */}
       {/* contact section */}
-      <section className="contact_section layout_padding-bottom">
+      <section className="contact_section layout_padding-bottom mt-4">
         <div className="container">
           <div className="heading_container">
             <h2>Contact Us</h2>

@@ -418,7 +418,7 @@ a:focus {
   padding: 40px;
   box-shadow: 0px 1px 10px #371e71;
   border-radius: 8px;
-  text-align: justify;
+  text-align: left;
 }
 
 /* .each_service p {

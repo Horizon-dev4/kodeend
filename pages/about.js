@@ -33,7 +33,7 @@ const about = () => {
                   <div className="heading_container">
                     <h2>About Us</h2>
                   </div>
-                  <p className="justify_content">
+                  <p className="">
                   At Kodeend IT Solutions, we specialize in utilizing cutting-edge technologies such as computer vision, artificial intelligence, and web development to provide innovative solutions for our clients. Our team of experts are dedicated to delivering high-quality services that help companies optimize their operations and drive growth. Whether {`you're`} looking to streamline processes, improve customer engagement, or gain valuable insights, we have the expertise and experience to help you achieve your goals. Contact us today to learn more about how we can help you take your business to the next level.
                   </p>
                 </div>
