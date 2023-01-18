@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Script from "next/script";
 import Footer from "./Footer";
 import Header from "./Header";
 import Meta from "./Meta";
@@ -38,9 +37,9 @@ const Home = () => {
                           distracted by the readable content of a page when
                           looking
                         </p>
-                        <a href="" className="">
+                        <Link href="/about" className="">
                           Read More
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="col-md-5 offset-md-1">
@@ -63,9 +62,9 @@ const Home = () => {
                         <p>
                         Unlock the full potential of your business with our web-apps, AI and data science expertise.
                         </p>
-                        <a href="" className="">
+                        <Link href="/about" className="">
                           Read More
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="col-md-5 offset-md-1">
@@ -88,9 +87,9 @@ const Home = () => {
                         <p>
                         Unlock new opportunities and insights with our AI and data science-driven web solutions.
                         </p>
-                        <a href="" className="">
+                        <Link href="/about" className="">
                           Read More
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="col-md-5 offset-md-1">
@@ -326,15 +325,6 @@ const Home = () => {
       {/* end contact section */}
       
       <Footer />
-      
-      {/* form data validation script */}
-      
-      {/* bootstrap scripts */}
-      <Script
-        type="text/javascript"
-        src="/assets/js/jquery-3.4.1.min.js"
-      />
-      <Script type="text/javascript" src="/assets/js/bootstrap.js" />
     </>
   );
 };

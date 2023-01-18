@@ -79,6 +79,9 @@
 }
 
 @media (max-width: 480px) {
+  .service_section .service_container .box .detail-box {
+    height: 25vh;
+  }
 }
 
 @media (max-width: 420px) {

@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import Script from "next/script"
 
 const Footer = () => {
   return (
@@ -102,6 +103,13 @@ const Footer = () => {
         </section>
         {/* footer section */}
       </div>
+
+      {/* bootstrap scripts */}
+      <Script
+        type="text/javascript"
+        src="/assets/js/jquery-3.4.1.min.js"
+      />
+      <Script type="text/javascript" src="/assets/js/bootstrap.js" />
     </>
   )
 }
