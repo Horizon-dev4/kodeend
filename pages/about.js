@@ -21,9 +21,9 @@ const about = () => {
               <div className="col-md-6">
                 <div className="img-box">
                   <Image
-                    src="/assets/images/about-img.png"
-                    width={548}
-                    height={408}
+                    src="/assets/images/about-img.jpg"
+                    width={500}
+                    height={400}
                     alt="about Us Image"
                   />
                 </div>

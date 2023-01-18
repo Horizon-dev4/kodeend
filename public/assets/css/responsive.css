@@ -61,11 +61,6 @@
     margin: 0 10px;
   }
 
-  .each_service p {
-    width: 100%;
-    padding: 40px 20px;
-  }
-
   .service_section .service_container .box .detail-box {
     height: 35vh;
   }
@@ -75,6 +70,11 @@
   .service_section .service_container .box {
     -ms-flex-preferred-size: 98%;
     flex-basis: 98%;
+  }
+
+  .each_service .each_service_content {
+    width: 100%;
+    padding: 20px;
   }
 }
 
