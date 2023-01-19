@@ -70,10 +70,23 @@ body {
   height: 47px;
 }
 
+.hero_area .header_home {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: 3;
+  background-color: #371e71;
+}
+
 .sub_page .hero_area {
   height: auto;
   background: none;
   background-color: #371e71;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  top: 0;
 }
 
 .sub_page .footer_bg {
@@ -214,7 +227,7 @@ a:focus {
   position: relative;
   z-index: 2;
   color: #3b3a3a;
-  padding-bottom: 90px;
+  padding-bottom: 10px;
 }
 
 .slider_section .row {
@@ -757,7 +770,7 @@ a:focus {
 }
 
 .footer_section p {
-  color: #fbb03b;
+  color: #fff;
   margin: 0 auto;
   text-align: center;
   padding: 20px;

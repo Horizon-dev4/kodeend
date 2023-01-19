@@ -12,7 +12,9 @@ const Home = () => {
 
       <div className="hero_area">
         {/* header section strats */}
-        <Header />
+        <div className="header_home">
+          <Header />
+        </div>
         {/* end header section */}
 
         {/* slider section */}
@@ -30,7 +32,7 @@ const Home = () => {
                       <div className="detail_box">
                         <h1>
                         Elevate Your Software <br /> 
-                        with <span>Kodeend IT Solutions</span>
+                        with <span>kodeEnd IT Solutions</span>
                         </h1>
                         <p>
                         Optimize your operations and decision making with our AI and data science services
@@ -43,6 +45,7 @@ const Home = () => {
                     <div className="col-md-5 offset-md-1">
                       <div className="img-box">
                         <img src="/assets/images/slider-img.png" alt="" />
+                        {/* <Image src="/assets/images/slider-img.png" alt="slider-img1" width={458} height={471} /> */}
                       </div>
                     </div>
                   </div>
@@ -54,9 +57,9 @@ const Home = () => {
                     <div className="col-md-6">
                       <div className="detail_box">
                         <h1>
-                        <span>Kodeend IT </span>is your Intelligence solutions
+                        <span>kodeEnd IT </span>is your Intelligence solutions
                          {/* <br /> 
-                        with <span>Kodeend IT Solutions</span> */}
+                        with <span>kodeEnd IT Solutions</span> */}
                         </h1>
                         <p>
                         Unlock the full potential of your business with our web-apps, AI and data science expertise.
@@ -69,6 +72,7 @@ const Home = () => {
                     <div className="col-md-5 offset-md-1">
                       <div className="img-box">
                         <img src="/assets/images/slider-img2.png" alt="" />
+                        {/* <Image src="/assets/images/slider-img2.png" alt="slider-img1" width={458} height={471} /> */}
                       </div>
                     </div>
                   </div>
@@ -81,7 +85,7 @@ const Home = () => {
                       <div className="detail_box">
                         <h1>
                         Empower your business <br /> 
-                        with <span>Kodeend IT Solutions</span>
+                        with <span>kodeEnd IT Solutions</span>
                         </h1>
                         <p>
                         Unlock new opportunities and insights with our AI and data science-driven web solutions.
@@ -202,7 +206,7 @@ const Home = () => {
                   <h2>About Us</h2>
                 </div>
                 <p className="">
-                At Kodeend IT Solutions, we specialize in utilizing cutting-edge technologies such as computer vision, artificial intelligence, and web development to provide innovative solutions for our clients. Our team of experts are dedicated to delivering high-quality services that help companies optimize their operations and drive growth. Whether {`you're`} looking to streamline processes, improve customer engagement, or gain valuable insights, we have the expertise and experience to help you achieve your goals. Contact us today to learn more about how we can help you take your business to the next level.
+                At kodeEnd IT Solutions, we specialize in utilizing cutting-edge technologies such as computer vision, artificial intelligence, and web development to provide innovative solutions for our clients. Our team of experts are dedicated to delivering high-quality services that help companies optimize their operations and drive growth. Whether {`you're`} looking to streamline processes, improve customer engagement, or gain valuable insights, we have the expertise and experience to help you achieve your goals. Contact us today to learn more about how we can help you take your business to the next level.
                 </p>
                 <Link href="/about"> Read More </Link>
               </div>

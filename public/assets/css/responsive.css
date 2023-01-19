@@ -67,6 +67,10 @@
 }
 
 @media (max-width: 576px) {
+  .hero_area .slider_section {
+    margin-top: 40px;
+  }
+
   .service_section .service_container .box {
     -ms-flex-preferred-size: 98%;
     flex-basis: 98%;

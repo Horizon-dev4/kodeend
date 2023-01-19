@@ -93,9 +93,8 @@ const Footer = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-7 col-md-9 mx-auto">
-                <p className="footer_custom_color">
-                  © 2020 All Rights Reserved By 
-                   KodeEnd IT Solutions AB
+                <p>
+                  <span className="footer_custom_color">© 2020 All Rights Reserved By</span> KodeEnd IT Solutions AB
                 </p>
               </div>
             </div>
