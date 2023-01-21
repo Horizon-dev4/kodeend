@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import ContactForm from "./ContactForm";
 import Footer from "./Footer";
 import Header from "./Header";
 import Meta from "./Meta";
@@ -45,7 +46,7 @@ const Home = () => {
                     <div className="col-md-5 offset-md-1">
                       <div className="img-box">
                         <img src="/assets/images/slider-img.png" alt="" />
-                        {/* <Image src="/assets/images/slider-img.png" alt="slider-img1" width={458} height={471} /> */}
+                        {/* <Image src="/assets/images/slider-img.png" alt="slider-img1" width={410} height={422} /> */}
                       </div>
                     </div>
                   </div>
@@ -197,7 +198,7 @@ const Home = () => {
             <div className="col-md-6">
               <div className="img-box">
                 {/* <img src="/assets/images/about-img.png" alt="" /> */}
-                <Image src="/assets/images/about-img.jpg" width={500} height={400} alt="about Us Image" />
+                <Image src="/assets/images/about-img1.png" width={500} height={400} alt="about Us Image" />
               </div>
             </div>
             <div className="col-md-5">
@@ -215,116 +216,78 @@ const Home = () => {
         </div>
       </section>
       {/* end about section */}
+
       {/* portfolio section */}
-      {/* <section className="portfolio_section layout_padding">
-        <div className="container">
-          <div className="heading_container">
-            <h2>Portfolio</h2>
-            <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority
-            </p>
-          </div>
-          <div className="layout_padding2-top">
-            <div className="row">
-              <div className="col-md-4 col-sm-6">
-                <div className="img-box">
-                  <img src="/assets/images/p-1.jpg" alt="" />
-                  <a href="">
-                    <img src="/assets/images/link.png" alt="" />
-                  </a>
-                </div>
-              </div>
-              <div className="col-md-4 col-sm-6">
-                <div className="img-box">
-                  <img src="/assets/images/p-2.jpg" alt="" />
-                  <a href="">
-                    <img src="/assets/images/link.png" alt="" />
-                  </a>
-                </div>
-              </div>
-              <div className="col-md-4 col-sm-6">
-                <div className="img-box">
-                  <img src="/assets/images/p-3.jpg" alt="" />
-                  <a href="">
-                    <img src="/assets/images/link.png" alt="" />
-                  </a>
-                </div>
-              </div>
-              <div className="col-md-4 col-sm-6">
-                <div className="img-box">
-                  <img src="/assets/images/p-4.jpg" alt="" />
-                  <a href="">
-                    <img src="/assets/images/link.png" alt="" />
-                  </a>
-                </div>
-              </div>
-              <div className="col-md-4 col-sm-6">
-                <div className="img-box">
-                  <img src="/assets/images/p-5.jpg" alt="" />
-                  <a href="">
-                    <img src="/assets/images/link.png" alt="" />
-                  </a>
-                </div>
-              </div>
-              <div className="col-md-4 col-sm-6">
-                <div className="img-box">
-                  <img src="/assets/images/p-6.jpg" alt="" />
-                  <a href="">
-                    <img src="/assets/images/link.png" alt="" />
-                  </a>
-                </div>
-              </div>
+        {/* <section className="portfolio_section layout_padding">
+          <div className="container">
+            <div className="heading_container">
+              <h2>Portfolio</h2>
+              <p>
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority
+              </p>
             </div>
-          </div>
-          <div className="btn-box">
-            <a href=""> View More </a>
-          </div>
-        </div>
-      </section> */}
-      {/* end portfolio section */}
-      {/* contact section */}
-      <section className="contact_section layout_padding-bottom mt-4">
-        <div className="container">
-          <div className="heading_container">
-            <h2>Contact Us</h2>
-          </div>
-          <div className="">
-            <div className="">
+            <div className="layout_padding2-top">
               <div className="row">
-                <div className="col-md-9 mx-auto">
-                  <div className="contact-form">
-                    <form name="submit-to-google-sheet">
-                      <div>
-                        <input type="text" name="name" placeholder="Full Name " />
-                      </div>
-                      <div>
-                        <input type="number" name="phone" placeholder="Phone Number" />
-                      </div>
-                      <div>
-                        <input type="email" name="email" placeholder="Email Address" />
-                      </div>
-                      <div>
-                        <input
-                          type="text"
-                          name="message"
-                          placeholder="Message"
-                          className="input_message"
-                        />
-                      </div>
-                      <div className="d-flex justify-content-center">
-                        <button type="submit" className="btn_on-hover">
-                          Send
-                        </button>
-                      </div>
-                    </form>
+                <div className="col-md-4 col-sm-6">
+                  <div className="img-box">
+                    <img src="/assets/images/p-1.jpg" alt="" />
+                    <a href="">
+                      <img src="/assets/images/link.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <div className="col-md-4 col-sm-6">
+                  <div className="img-box">
+                    <img src="/assets/images/p-2.jpg" alt="" />
+                    <a href="">
+                      <img src="/assets/images/link.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <div className="col-md-4 col-sm-6">
+                  <div className="img-box">
+                    <img src="/assets/images/p-3.jpg" alt="" />
+                    <a href="">
+                      <img src="/assets/images/link.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <div className="col-md-4 col-sm-6">
+                  <div className="img-box">
+                    <img src="/assets/images/p-4.jpg" alt="" />
+                    <a href="">
+                      <img src="/assets/images/link.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <div className="col-md-4 col-sm-6">
+                  <div className="img-box">
+                    <img src="/assets/images/p-5.jpg" alt="" />
+                    <a href="">
+                      <img src="/assets/images/link.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <div className="col-md-4 col-sm-6">
+                  <div className="img-box">
+                    <img src="/assets/images/p-6.jpg" alt="" />
+                    <a href="">
+                      <img src="/assets/images/link.png" alt="" />
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
+            <div className="btn-box">
+              <a href=""> View More </a>
+            </div>
           </div>
-        </div>
-      </section>
+        </section> */}
+      {/* end portfolio section */}
+
+      {/* contact section */}
+        <ContactForm />
       {/* end contact section */}
       
       <Footer />
