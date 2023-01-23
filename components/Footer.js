@@ -109,6 +109,7 @@ const Footer = () => {
         src="/assets/js/jquery-3.4.1.min.js"
       />
       <Script type="text/javascript" src="/assets/js/bootstrap.js" />
+
     </>
   )
 }
