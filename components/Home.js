@@ -165,7 +165,7 @@ const Home = () => {
                 </p>
               </div>
               <div className="btn-box2">
-                <a href=""> Read More </a>
+                <Link href="/services/artificial-intelligence"> Read More </Link>
               </div>
             </div>
             <div className="box">
@@ -181,7 +181,7 @@ const Home = () => {
                 </p>
               </div>
               <div className="btn-box2">
-                <a href=""> Read More </a>
+                <Link href="/services/web-development"> Read More </Link>
               </div>
             </div>
           </div>
