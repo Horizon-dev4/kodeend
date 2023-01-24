@@ -13,20 +13,20 @@ const ContactForm = () => {
                 <div className="row">
                   <div className="col-md-9 mx-auto">
                     <div className="contact-form">
-                      <form action="https://formspree.io/f/mrgvbrkj" method='POST'>
+                      <form action="https://formspree.io/f/mknaglqg" method='POST'>
                         <div>
                           <input type="text" placeholder="Full Name " name='UserName' />
                         </div>
                         <div>
-                          <input type="text" placeholder="Phone Number" name='UserPhone' />
+                          <input type="text" placeholder="Phone Number" name='Phone' />
                         </div>
                         <div>
-                          <input type="email" placeholder="Email Address" name='UserEmail' />
+                          <input type="email" placeholder="Email Address" name='Email' />
                         </div>
                         <div>
                           <input
                             type="text"
-                            name='UserMessage'
+                            name='Message'
                             placeholder="Message"
                             className="input_message"
                           />
