@@ -46,6 +46,11 @@ const Header = () => {
                         Service
                       </Link>
                     </li>
+                    <li className="nav-item">
+                      <Link className="nav-link" href="/blogs">
+                        Blogs
+                      </Link>
+                    </li>
                     {/* <li className="nav-item">
                       <Link className="nav-link" href="/portfolio">
                         Portfolio

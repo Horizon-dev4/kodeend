@@ -789,6 +789,9 @@ a:focus {
 .each_service_content p a:visited {
   color: #6944db;
 }
+.each_service_content h6 {
+  font-weight: 800;
+}
 
 .info_info h5,
 .info_contact h5,
