@@ -69,13 +69,13 @@ const Footer = () => {
                     <button>Subscribe</button>
                   </form> */}
                   <div className="social_box">
-                    <a href="">
+                    <a href="https://www.facebook.com/KodeEnd" target="_blank" rel="noreferrer">
                       <Image src="/assets/images/fb.png" width={30} height={30} alt="Facebook" />
                     </a>
-                    <a href="">
+                    {/* <a href="">
                       <Image src="/assets/images/twitter.png" width={30} height={30} alt="Twitter" />
-                    </a>
-                    <a href="">
+                    </a> */}
+                    <a href="https://www.linkedin.com/company/shahnawaz-jinnah-53264567" target="_blank" rel="noreferrer">
                       <Image src="/assets/images/linkedin.png" width={30} height={30} alt="Linked In" />
                     </a>
                     {/* <a href="">
