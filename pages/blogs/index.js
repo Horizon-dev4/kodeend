@@ -38,6 +38,23 @@ const index = () => {
                 </div>
               </div>
 
+              {/* box-2 */}
+              <div className="box">
+                <div className="img-box">
+                  <Image src="/assets/images/blog2_1.jpg" width={200} height={80} className="img1" alt="" />
+                  <Image src="/assets/images/blog2_1.jpg" className="img2" width={200} height={80} alt="" />
+                </div>
+                <div className="detail-box">
+                  <h5>Boost Productivity with ERP Softwares</h5>
+                  <p>
+                  An ERP {`systems's`} primary goal is to manage and automate a {`business's`} daily activities.
+                  </p>
+                </div>
+                <div className="btn-box2">
+                  <Link href="/blogs/what-is-erp"> Read More </Link>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>
