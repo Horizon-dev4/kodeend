@@ -1,12 +1,34 @@
+import Head from "next/head";
 import Image from "next/image";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import Meta from "../../components/Meta";
 
 const whatIsErp = () => {
   return (
     <>
-      <Meta />
+      {/* <Meta /> */}
+      <Head>
+        {/* Basic */}
+        <meta charSet="utf-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        {/* Mobile Metas */}
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        {/* Site Metas */}
+        <meta name="keywords" content="" />
+        <meta name="description" content="Business process automation can increase productivity and save
+time. Kodeend's ERP system is here to help you increase your business efficiency." key="desc"/>
+        <meta name="author" content="" />
+        <meta name="keywords" content="EnterpriseResourcePlanning (ERP), BusinessProcessAutomation, CloudERP" />
+        <meta name="robots" content="index, follow" />
+        <title>Automate Your Business Operations with Effective ERP | KodeEnd</title>
+
+        <link rel="canonical" href="https://www.kodeend.com/blogs/what-is-erp" />
+        {/* favicon adding */}
+        <link rel="shortcut icon" href="/assets/images/favicon.png" title="Favicon" />
+      </Head>
       <div className="sub_page">
         <div className="hero_area">
           {/* header section strats */}
