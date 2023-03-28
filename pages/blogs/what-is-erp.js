@@ -3,7 +3,7 @@ import Image from "next/image";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
-const whatIsErp = () => {
+const whatIsErp = () => {  
   return (
     <>
       {/* <Meta /> */}
@@ -46,7 +46,7 @@ time. Kodeend's ERP system is here to help you increase your business efficiency
               className=" mb-4"
               width={700}
               height={600}
-              alt="computer vision service"
+              alt="What is ERP?"
             />
             <div className="each_service">
               <div className="each_service_content">

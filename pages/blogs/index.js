@@ -22,6 +22,7 @@ const index = () => {
             </div>
 
             <div className="service_container">
+              {/* blog-1 */}
               <div className="box">
                 <div className="img-box">
                   <Image src="/assets/images/AI-2.jpeg" width={200} height={80} className="img1" alt="" />
@@ -38,7 +39,7 @@ const index = () => {
                 </div>
               </div>
 
-              {/* box-2 */}
+              {/* blog-2 */}
               <div className="box">
                 <div className="img-box">
                   <Image src="/assets/images/blog2_1.jpg" width={200} height={80} className="img1" alt="" />
@@ -52,6 +53,23 @@ const index = () => {
                 </div>
                 <div className="btn-box2">
                   <Link href="/blogs/what-is-erp"> Read More </Link>
+                </div>
+              </div>
+
+              {/* blog-3 */}
+              <div className="box">
+                <div className="img-box">
+                  <Image src="/assets/images/blog3_1.jpg" width={200} height={80} className="img1" alt="" />
+                  <Image src="/assets/images/blog3_1.jpg" className="img2" width={200} height={80} alt="" />
+                </div>
+                <div className="detail-box">
+                  <h5>Blockchain and Big Data</h5>
+                  <p>
+                  Blockchain and Big Data are two of the most needed technological developments in recent years.
+                  </p>
+                </div>
+                <div className="btn-box2">
+                  <Link href="/blogs/blockchain-and-bigdata"> Read More </Link>
                 </div>
               </div>
 
