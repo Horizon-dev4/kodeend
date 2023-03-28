@@ -21,7 +21,7 @@ const WebDevelopment = () => {
             </div> */}
             <Image
               src="/assets/images/AI-1.jpeg"
-              className=" mb-4"
+              className="img-fluid mb-4"
               width={700}
               height={600}
               alt="computer vision service"

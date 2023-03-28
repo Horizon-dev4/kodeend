@@ -38,7 +38,7 @@ const blockChainAndBigData = () => {
           <div className="container">
             <Image
               src="/assets/images/blog3_1.jpg"
-              className=" mb-4"
+              className="img-fluid mb-4"
               width={700}
               height={500}
               alt="Blockchain and Big Data"

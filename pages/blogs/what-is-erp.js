@@ -43,7 +43,7 @@ time. Kodeend's ERP system is here to help you increase your business efficiency
             </div> */}
             <Image
               src="/assets/images/blog2_1.jpg"
-              className=" mb-4"
+              className="img-fluid mb-4"
               width={700}
               height={600}
               alt="What is ERP?"
