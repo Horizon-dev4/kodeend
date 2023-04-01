@@ -73,6 +73,23 @@ const index = () => {
                 </div>
               </div>
 
+              {/* blog-4 */}
+              <div className="box">
+                <div className="img-box">
+                  <Image src="/assets/images/blog4_0.jpg" width={200} height={80} className="img1" alt="" />
+                  <Image src="/assets/images/blog4_0.jpg" className="img2" width={200} height={80} alt="" />
+                </div>
+                <div className="detail-box">
+                  <h5>Computer Vision</h5>
+                  <p>
+                    Computer vision is a field of artificial intelligence that trains computers to interpret and understand the visual world.
+                  </p>
+                </div>
+                <div className="btn-box2">
+                  <Link href="/blogs/computer-vision"> Read More </Link>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>
