@@ -121,7 +121,9 @@ const computerVision = () => {
                 <p>
                 Kodeend IT Solutions specializes in cutting-edge AI services. Our experienced team has the knowledge and expertise to assist you in using the potential of AI to improve your organization. We can assist you in integrating AI into your existing systems. 
                 <br /><br />
+                <b>
                 Contact us today to learn more about how we can assist you in harnessing the potential of artificial intelligence. 
+                </b>
                 </p>
               </div>
             </div>
