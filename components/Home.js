@@ -135,7 +135,8 @@ const Home = () => {
             <h2>Our Services</h2>
           </div>
           <div className="service_container">
-            <div className="box">
+
+            {/* <div className="box">
               <div className="img-box">
                   <Image src="/assets/images/computer-vision1.png" width={100} height={80} className="img1" alt="" />
                   <Image src="/assets/images/computer-vision1.png" className="img2" width={100} height={80} alt="" />
@@ -152,6 +153,7 @@ const Home = () => {
                 <Link href="services/computervision"> Read More </Link>
               </div>
             </div>
+
             <div className="box">
               <div className="img-box">
                   <Image src="/assets/images/artificial-intelligence.png" className="img1" width={100} height={80} alt="" />
@@ -167,26 +169,26 @@ const Home = () => {
               <div className="btn-box2">
                 <Link href="/services/artificial-intelligence"> Read More </Link>
               </div>
-            </div>
+            </div> */}
+
             <div className="box">
               <div className="img-box">
-                  <Image src="/assets/images/nlp.png" className="img1" width={100} height={80} alt="" />
-                  <Image src="/assets/images/nlp.png" className="img2" width={100} height={80} alt="" />
+                  <Image src="/assets/images/web.png" className="img1" width={100} height={80} alt="" />
+                  <Image src="/assets/images/web.png" className="img2" width={100} height={80} alt="" />
               </div>
               <div className="detail-box">
                 <h5>Web Development</h5>
                 <p>
-                  The term refers to the process of designing, developing, and
-                  maintaining websites.
+                  Full-stack web development is offered by Kodeend IT for user-friendly websites with a seamless experience and exceptional performance.
                 </p>
               </div>
               <div className="btn-box2">
-                <Link href="/services/web-development"> Read More </Link>
+                <Link href="/services/web-development"> Learn More </Link>
               </div>
             </div>
           </div>
           <div className="btn-box">
-            <Link href="/services"> Read More </Link>
+            <Link href="/services"> More Services </Link>
           </div>
         </div>
       </section>

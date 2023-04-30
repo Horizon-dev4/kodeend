@@ -14,18 +14,36 @@ const WebDevelopment = () => {
           {/* end header section */}
         </div>
         {/* service section */}
-        <section className="service_section layout_padding">
+        <section className=" layout_padding">
           <div className="container">
-            <div className="heading_container">
-              <h2>Web Development</h2>
+            <div className="heading_container mb-4">
+              <h2>Eye-catchy, user-friendly websites with robust web development Services.</h2>
             </div>
-            <div className="each_service">
+
+            <div className="row">
+              <div className="col-md-6">
+                <p className="text-start" style={{'paddingTop' : '90px'}}>
+                  For creating appealing and user-friendly websites, Kodeend IT Solutions provides the best full-stack web development services. Our all-encompassing strategy guarantees a smooth user experience and outstanding performance. Count on us to make your online presence functional.
+                </p>
+              </div>
+              <div className="col-md-6">
+                <Image
+                  src="/assets/images/web-development.jpg"
+                  className="img-fluid"
+                  width={700}
+                  height={600}
+                  alt="web development"
+                />
+              </div>
+          </div>
+
+            {/* <div className="each_service">
               <Image
                 src="/assets/images/web-development.jpg"
                 className="img-fluid"
                 width={700}
                 height={600}
-                alt="computer vision service"
+                alt="web development"
               />
 
               <div className="each_service_content">
@@ -60,8 +78,9 @@ const WebDevelopment = () => {
                     <li>Payment Solution-both Stripe & PayPal</li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
+
         </section>
         {/* end service section */}
         <Footer />

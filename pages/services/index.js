@@ -21,7 +21,7 @@ const index = () => {
               <h2>Our Services</h2>
             </div>
             <div className="service_container">
-              <div className="box">
+              {/* <div className="box">
                 <div className="img-box">
                   <Image src="/assets/images/computer-vision1.png" width={100} height={80} className="img1" alt="" />
                   <Image src="/assets/images/computer-vision1.png" className="img2" width={100} height={80} alt="" />
@@ -70,7 +70,7 @@ const index = () => {
                 <div className="btn-box2">
                   <Link href="/services/natural-language-processing"> Read More </Link>
                 </div>
-              </div>
+              </div> */}
 
               <div className="box">
                 <div className="img-box">
@@ -80,16 +80,15 @@ const index = () => {
                 <div className="detail-box">
                   <h5 style={{'margin-top':'30px'}}>Web Development</h5>
                   <p>
-                    The term web development refers to the process of designing,
-                    developing, and maintaining websites.
+                  Full-stack web development is offered by Kodeend IT for user-friendly websites with a seamless experience and exceptional performance.
                   </p>
                 </div>
                 <div className="btn-box2">
-                  <Link href="/services/web-development"> Read More </Link>
+                  <Link href="/services/web-development"> Learn More </Link>
                 </div>
               </div>
 
-              <div className="box">
+              {/* <div className="box">
                 <div className="img-box">
                   <Image src="/assets/images/blockchain.png" className="img1" width={75} height={76} alt="" />
                   <Image src="/assets/images/blockchain.png" className="img2" width={75} height={76} alt="" />
@@ -119,7 +118,7 @@ const index = () => {
                 <div className="btn-box2">
                   <Link href="/services/erp"> Read More </Link>
                 </div>
-              </div>
+              </div> */}
 
             </div>
           </div>
