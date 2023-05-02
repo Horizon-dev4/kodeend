@@ -50,6 +50,16 @@ body {
   text-transform: uppercase;
 }
 
+.service_heading {
+  padding-bottom: 45px;
+}
+
+.service_heading h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 /*header section*/
 .hero_area {
   height: 98vh;

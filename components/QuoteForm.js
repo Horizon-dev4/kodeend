@@ -1,29 +1,21 @@
 import React from 'react'
 
-const ContactForm = () => {
+const QuoteForm = () => {
   return (
-    <>
-      <section className="contact_section layout_padding">
-          <div className="container">
-            <div className="heading_container">
-              <h2>contact us</h2>
-            </div>
-            <div className="">
-              <div className="">
-                <div className="row">
+    <section className="contact_section ">
+          <div className="container">            
+            <div className="row">
                   <div className="col-md-9 mx-auto">
                     <div className="contact-form">
-                      <form action="https://formspree.io/f/mknaglqg" method='POST'>
-                        <div>
-                          <input type="text" placeholder="Full Name " name='UserName' />
+                      <form>
+                        <div className="row">
+                        <div className='col-md-6'>
+                          <input type="text" placeholder="Your Name " name='UserName' />
                         </div>
-                        <div>
-                          <input type="text" placeholder="Phone Number" name='Phone' />
-                        </div>
-                        <div>
+                        <div className='col-md-6'>
                           <input type="email" placeholder="Email Address" name='Email' />
                         </div>
-                        <div>
+                        <div className='col-md-12'>
                           <input
                             type="text"
                             name='Message'
@@ -36,16 +28,14 @@ const ContactForm = () => {
                             Send
                           </button>
                         </div>
+                        </div>
                       </form>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
           </div>
       </section>
-    </>
   )
 }
 
-export default ContactForm
+export default QuoteForm
