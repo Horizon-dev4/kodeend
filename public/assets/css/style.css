@@ -50,11 +50,17 @@ body {
   text-transform: uppercase;
 }
 
+.srvc_hero_align {
+  display: flex;
+  align-items: center;
+}
+
 .service_heading {
   padding-bottom: 45px;
 }
 
-.service_heading h2 {
+.service_heading h2,
+.request_service_heading h2 {
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
@@ -326,6 +332,13 @@ a:focus {
 .slider_section .carousel_btn-container .carousel-control-next {
   background-image: url(../images/next.png);
   background-color: #582fd7;
+}
+
+/* service section css */
+.card-img-top {
+  width: 150px;
+  height: 130px;
+  margin: 25px auto 5px;
 }
 
 .service_section {
