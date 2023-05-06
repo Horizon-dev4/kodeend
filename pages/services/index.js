@@ -141,6 +141,23 @@ const index = () => {
                 </div>
               </div>
 
+              {/* Service Seven */}
+              <div className="box">
+                <div className="img-box">
+                  <Image src="/assets/images/web.png" className="img1" width={75} height={66} alt="" />
+                  <Image src="/assets/images/web.png" className="img2" width={75} height={66} alt="" />
+                </div>
+                <div className="detail-box">
+                  <h5>SQA</h5>
+                  <p>
+                    Koedend IT Solutions is an internationally recognized expert in providing Software Quality Assurance (SQA) services
+                  </p>
+                </div>
+                <div className="btn-box2">
+                  <Link href="/services/sqa"> Learn More </Link>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>
