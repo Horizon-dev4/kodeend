@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Script from "next/script";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Meta from "../../components/Meta";
@@ -243,14 +244,14 @@ const WebDevelopment = () => {
               <h2>Why Choose Our Web Development Services</h2>
             </div>
             
-            <div className="ml-4">
-              <ol>
-                <li>Solutions that are adapted to your specific requirements.</li>
-                <li>Knowledge of numerous web technologies.</li>
-                <li>Mobile-responsive designs ensure a consistent user experience.</li>
-                <li>On-time delivery combined with a methodical approach to project management.</li>
-                <li>Affordable without reducing the quality.</li>
-              </ol>
+            <div className="why_us">
+              <p>
+                <i class="fa-solid fa-check"></i>Solutions that are adapted to your specific requirements.<br/>
+                <i class="fa-solid fa-check"></i>Knowledge of numerous web technologies.<br/>
+                <i class="fa-solid fa-check"></i>Mobile-responsive designs ensure a consistent user experience.<br/>
+                <i class="fa-solid fa-check"></i>On-time delivery combined with a methodical approach to project management.<br/>
+                <i class="fa-solid fa-check"></i>Affordable without reducing the quality.
+              </p>
             </div>
           </div>
           {/* why our services ends */}
@@ -258,6 +259,8 @@ const WebDevelopment = () => {
         </section>
         {/* end service section */}
         <Footer />
+
+        <Script src="https://kit.fontawesome.com/8976912a92.js" crossorigin="anonymous"></Script>
       </div>
     </>
   );
