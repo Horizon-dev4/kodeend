@@ -73,7 +73,7 @@ const index = () => {
                 </div>
               </div>
 
-              {/* Service Two */}
+              {/* Service Three */}
               <div className="box">
                 <div className="img-box">
                   <Image src="/assets/images/nlp.png" className="img1" width={100} height={80} alt="" />
@@ -89,8 +89,9 @@ const index = () => {
                   <Link href="/services/natural-language-processing"> Learn More </Link>
                 </div>
               </div>
-
-              {/* <div className="box">
+              
+              {/* Service Four */}
+              <div className="box">
                 <div className="img-box">
                   <Image src="/assets/images/blockchain.png" className="img1" width={75} height={76} alt="" />
                   <Image src="/assets/images/blockchain.png" className="img2" width={75} height={76} alt="" />
@@ -98,14 +99,15 @@ const index = () => {
                 <div className="detail-box">
                   <h5>Block chain & Big Data</h5>
                   <p>
-                  Blockchain and big data are two new technologies that are high on {`companies'`} priority lists.
+                    Analyzing massive volumes of data in order to generate useful insights and make smart choices. We can assist your company in identifying new market prospects and increasing customer engagement.
                   </p>
                 </div>
                 <div className="btn-box2">
-                  <Link href="/services/blockchain-&-bigdata"> Read More </Link>
+                  <Link href="/services/blockchain-&-bigdata"> Learn More </Link>
                 </div>
               </div>
 
+              {/* Service Five */}
               <div className="box">
                 <div className="img-box">
                   <Image src="/assets/images/erp.png" className="img1" width={75} height={66} alt="" />
@@ -114,13 +116,30 @@ const index = () => {
                 <div className="detail-box">
                   <h5>ERP</h5>
                   <p>
-                  While there {`isn't`} a one-size-fits-all software solution for every corporate function, ERP technology is improving at connecting processes together. 
+                    Kodeend IT Solutions enable businesses to improve cooperation and communication while gaining more control over their business processes.
                   </p>
                 </div>
                 <div className="btn-box2">
-                  <Link href="/services/erp"> Read More </Link>
+                  <Link href="/services/erp"> Learn More </Link>
                 </div>
-              </div> */}
+              </div>
+
+              {/* Service Six */}
+              <div className="box">
+                <div className="img-box">
+                  <Image src="/assets/images/blockchain.png" className="img1" width={75} height={66} alt="" />
+                  <Image src="/assets/images/blockchain.png" className="img2" width={75} height={66} alt="" />
+                </div>
+                <div className="detail-box">
+                  <h5>SEO</h5>
+                  <p>
+                    To help companies improve their online visibility and draw in more organic visitors, Kodeend IT Solutions offers a range of SEO services.
+                  </p>
+                </div>
+                <div className="btn-box2">
+                  <Link href="/services/erp"> Learn More </Link>
+                </div>
+              </div>
 
             </div>
           </div>

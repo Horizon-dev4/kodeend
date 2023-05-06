@@ -1,8 +1,9 @@
 import Image from "next/image";
-import Link from "next/link";
+import Script from "next/script";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Meta from "../../components/Meta";
+import QuoteForm from "../../components/QuoteForm";
 
 const ERP = () => {
   return (
@@ -15,51 +16,243 @@ const ERP = () => {
           {/* end header section */}
         </div>
         {/* service section */}
-        <section className="service_section layout_padding">
-          <div className="container">
+        <section className="layout_padding container">
+          <div>
             <div className="heading_container">
-              <h2>ERP</h2>
+              <h2>
+                Enhance the Effectiveness of Your Business with {`Kodeend's`} Expert ERP Solutions
+              </h2>
             </div>
-            <div className="each_service">
-              <Image
-                src="/assets/images/erp.jpg"
-                className="img-fluid"
-                width={700}
-                height={600}
-                alt="computer vision service"
-              />
 
-              <div className="each_service_content">
-                <p>
-                ERP, or Enterprise Resource Planning, is a type of software that helps businesses manage various aspects of their operations, such as finances, supply chain, manufacturing, human resources, and more. It enables companies to coordinate and automate key business processes, often in real-time, in order to improve efficiency and make better decisions.
-                <br /><br />
-                ERP systems provide a centralized platform that integrates data from different departments and functions of the organization, allowing for improved collaboration and data-driven decision making. With the help of advanced technologies such as <Link href="/services/artificial-intelligence">Artificial Intelligence</Link> (AI) and <Link href="https://www.ibm.com/topics/machine-learning" target="_blank" >Machine Learning</Link> (ML), ERP systems can provide valuable insights to help companies achieve peak performance and stay ahead of market changes.
-                <br /><br />
-                ERP solutions are designed to be flexible and adaptable to changing business needs. They can be easily configured and customized to suit the specific requirements of different industries and organizations. This allows companies to scale up and evolve their operations as their needs change, without the need for expensive and time-consuming system upgrades.
-                <br /><br />
-                ERP systems can also help companies increase the speed and efficiency of their operations by providing employees with greater visibility and control over key processes. By integrating and automating key business functions, ERP solutions can streamline operations and improve productivity, allowing employees to focus on creating value for the organization.
-                <br /><br />
-                Overall, ERP systems provide a powerful tool for managing and optimizing business operations, enabling companies to improve efficiency, make better decisions, and stay ahead of market changes. With the help of advanced technologies such as AI and ML, ERP solutions are becoming more intelligent, agile, and adaptable, providing a competitive edge to businesses of all sizes and industries
-                <br /><br />
-                Here is three ways ERP can improve your business:
+            <div className="row" >
+              <div className="col-md-6 srvc_hero_align">
+                <p className="text-start">
+                  An outstanding ERP (Enterprise Resource Planning) solution provider, Kodeend IT Solutions is committed to assisting companies of all sizes in streamlining their operations and boosting production. With our modern ERP solutions, any business can easily accomplish its strategic goals.
                 </p>
-                <ul className="pl-4">
-                    <li>
-                        Assist in achieving peak performance. Artificial intelligence (AI) solutions give you access to insights that help you make better decisions and identify methods to improve operational performance in the future.
-                    </li>
-                    <li>
-                        Increase the speed with which your operational influence is felt. By integrating processes and data, you may provide employees more visibility and freedom, allowing them to act more swiftly and generate more value across the organization.
-                    </li>
-                    <li>
-                        Ensure that your company is flexible. Many ERP solutions are designed to adapt to your needs and evolve with you, allowing you to plan ahead of time for any operational disruption or market change and respond quickly.
-                    </li>
-                </ul>
+              </div>
+              <div className="col-md-6">
+                <Image
+                  src="/assets/images/service1_1.jpg"
+                  className="img-fluid"
+                  width={700}
+                  height={600}
+                  alt="web development"
+                />
               </div>
             </div>
           </div>
+
+          {/* feature section starts */}
+          <div className="layout_padding-top">
+            <div className="service_heading">
+              <h2>The features we provide</h2>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100">
+                  <Image
+                    src="/assets/images/service1_2.jpg"
+                    class="card-img-top"
+                    width={200}
+                    height={220}
+                    alt="UI/UX Design"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Customizable ERP</h5>
+                    <p class="card-text">
+                      We provide specialized ERP solutions to meet the particular demands and needs of each client, assuring optimum productivity and efficiency.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <Image
+                    src="/assets/images/service1_3.jpg"
+                    class="card-img-top"
+                    width={200}
+                    height={220}
+                    alt="Front-End Development"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Expert Consultation</h5>
+                    <p class="card-text">
+                      In order to ensure a seamless transition, our team of ERP professionals offers thorough advice and support services during the implementation process and beyond.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <Image
+                    src="/assets/images/service1_4.jpg"
+                    class="card-img-top"
+                    width={200}
+                    height={220}
+                    alt="Back-End Development"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Cloud-based Solutions</h5>
+                    <p class="card-text">
+                      Our cloud-based ERP systems give organizations the flexibility and scalability to access their data and apps from any location, at any time, and on any device.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Second row of features */}
+          <div className="mt-4">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100">
+                  <Image
+                    src="/assets/images/service1_5.jpg"
+                    class="card-img-top"
+                    width={200}
+                    height={220}
+                    alt="UI/UX Design"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Integration with Third-Party Applications</h5>
+                    <p class="card-text">
+                      To improve overall business performance, we effortlessly combine our ERP solutions with other business applications like CRM, HRM, and SCM systems.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <Image
+                    src="/assets/images/service1_6.jpg"
+                    class="card-img-top"
+                    width={200}
+                    height={220}
+                    alt="Front-End Development"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Advanced Analytics and Reporting</h5>
+                    <p class="card-text">
+                      With the help of the sophisticated analytics and reporting tools included in our ERP solutions, organizations can acquire a comprehensive understanding of their operations, make data-driven choices, and boost their bottom line.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <Image
+                    src="/assets/images/service1_7.jpg"
+                    class="card-img-top"
+                    width={200}
+                    height={220}
+                    alt="Back-End Development"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">E-commerce Integration</h5>
+                    <p class="card-text">
+                      E-commerce systems to make it easy for businesses to sell your products and services online.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Third row of features */}
+          {/* <div className="mt-4">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100">
+                  <Image
+                    src="/assets/images/service1_8.jpg"
+                    class="card-img-top"
+                    width={200}
+                    height={220}
+                    alt="UI/UX Design"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Content & SEO</h5>
+                    <p class="card-text">
+                      SEO optimization and high-quality content production for website visibility and search engine ranking.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <Image
+                    src="/assets/images/service1_9.jpg"
+                    class="card-img-top"
+                    width={400}
+                    height={220}
+                    alt="Front-End Development"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Graphics</h5>
+                    <p class="card-text">
+                      Graphics and images that are customized to improve website design and user engagement.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <Image
+                    src="/assets/images/service1_10.jpg"
+                    class="card-img-top"
+                    width={200}
+                    height={220}
+                    alt="Back-End Development"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Website Maintenance, Support & Security</h5>
+                    <p class="card-text">
+                      Regular website maintenance, technical support, and security upgrades to ensure peak website performance and security.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> */}
+          {/* feature section ends */}
+
+          {/* get a quote section starts */}
+          <div className="layout_padding-top">
+            <div className="request_service_heading">
+              <h2>Request a Quote</h2>
+            </div>
+          </div>
+
+          <QuoteForm />
+          {/* get a quote section ends */}
+
+          {/* why our services starts */}
+          <div className="layout_padding-top">
+            <div className="service_heading">
+              <h2>Why Choose Our ERP Solutions</h2>
+            </div>
+            
+            <div className="why_us">
+              <p>
+                <i class="fa-solid fa-check"></i>Our ERP solutions boost productivity and efficiency by automating and reducing manual errors.<br/>
+                <i class="fa-solid fa-check"></i>Teams can work together efficiently and communicate without interruption, which promotes better decision-making.<br/>
+                <i class="fa-solid fa-check"></i>Our ERP systems enable businesses to maximize resource allocation and utilization.<br/>
+                <i class="fa-solid fa-check"></i>Enhance response times, accuracy, and general customer experience.<br/>
+                <i class="fa-solid fa-check"></i>Our ERP solutions lower operating costs, yielding over time considerable cost savings.
+              </p>
+            </div>
+          </div>
+          {/* why our services ends */}
+
         </section>
         {/* end service section */}
         <Footer />
+
+        <Script src="https://kit.fontawesome.com/8976912a92.js" crossorigin="anonymous"></Script>
       </div>
     </>
   );

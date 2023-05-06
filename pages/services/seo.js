@@ -1,11 +1,12 @@
-import Image from "next/image";
-import Script from "next/script";
-import Footer from "../../components/Footer";
-import Header from "../../components/Header";
-import Meta from "../../components/Meta";
-import QuoteForm from "../../components/QuoteForm";
+import Image from 'next/image';
+import Script from 'next/script';
+import React from 'react';
+import Footer from '../../components/Footer';
+import Header from '../../components/Header';
+import Meta from '../../components/Meta';
+import QuoteForm from '../../components/QuoteForm';
 
-const WebDevelopment = () => {
+const SEO = () => {
   return (
     <>
       <Meta />
@@ -20,14 +21,14 @@ const WebDevelopment = () => {
           <div>
             <div className="heading_container">
               <h2>
-                Accelerate growth and innovation with {`Kodeend's`} Blockchain and Big Data expertise
+              Enhance Your Online Visibility with Professional SEO Services
               </h2>
             </div>
 
             <div className="row" >
               <div className="col-md-6 srvc_hero_align">
                 <p className="text-start">
-                  Kodeend uses blockchain technology to assist your company in implementing decentralized solutions that decrease costs, enhance efficiency, and boost trust between partners. Apart from blockchain, {`Kodeend's`} big data may assist your company in analyzing vast volumes of data in order to unearth useful insights and make educated choices.
+                As part of our services, we can enhance a {`website's`} content, structure, and other elements to make them more appealing to search engines. The services are intended to help businesses optimize their search engine rankings, boost website traffic, and ultimately increase their online visibility and profitability.
                 </p>
               </div>
               <div className="col-md-6">
@@ -59,13 +60,14 @@ const WebDevelopment = () => {
                     alt="UI/UX Design"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Custom Blockchain Development</h5>
+                    <h5 class="card-title">Keyword Research</h5>
                     <p class="card-text">
-                      Kodeend IT Solutions can help organizations in developing custom blockchain solutions that are suited to their specific requirements, such as public, private, and consortium blockchains.
+                        To find the most beneficial and relevant terms for your company, we do a lot of research.
                     </p>
                   </div>
                 </div>
               </div>
+
               <div class="col">
                 <div class="card h-100">
                   <Image
@@ -76,13 +78,14 @@ const WebDevelopment = () => {
                     alt="Front-End Development"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Blockchain Consulting</h5>
+                    <h5 class="card-title">On-page Optimization</h5>
                     <p class="card-text">
-                      {`Kodeend's`} skilled team can assist firms to comprehend the potential of blockchain and create use cases for its adoption.
+                        In order to improve your {`website's`} search engine ranks, our professionals optimize its content, meta tags, and other on-page components.
                     </p>
                   </div>
                 </div>
               </div>
+
               <div class="col">
                 <div class="card h-100">
                   <Image
@@ -93,9 +96,9 @@ const WebDevelopment = () => {
                     alt="Back-End Development"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Smart Contract Development</h5>
+                    <h5 class="card-title">Off-page Optimization</h5>
                     <p class="card-text">
-                      {`Kodeend's`} skilled team can assist firms to comprehend the potential of blockchain and create use cases for its adoption.
+                        We put a lot of effort into creating solid backlinks and increasing the domain authority of your website through efficient off-page optimization.
                     </p>
                   </div>
                 </div>
@@ -116,9 +119,9 @@ const WebDevelopment = () => {
                     alt="UI/UX Design"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Big Data Analytics</h5>
+                    <h5 class="card-title">Analytics and Reporting</h5>
                     <p class="card-text">
-                      Using modern analytics tools and techniques like machine learning and predictive analytics, KodeEnd can assist firms in analyzing enormous amounts of data.
+                        Our team keeps an eye on the functioning of your website and gives thorough information on its traffic and search engine rankings.
                     </p>
                   </div>
                 </div>
@@ -133,9 +136,9 @@ const WebDevelopment = () => {
                     alt="Front-End Development"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Data Visualization</h5>
+                    <h5 class="card-title">Local SEO</h5>
                     <p class="card-text">
-                      Kodeend can assist organizations in making sense of their data by developing interactive dashboards and visualizations that facilitate data exploration and analysis.
+                        By optimizing your website for location-based keywords and Google My Business listings, we can help your business attract local clients.
                     </p>
                   </div>
                 </div>
@@ -150,9 +153,9 @@ const WebDevelopment = () => {
                     alt="Back-End Development"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Data Security</h5>
+                    <h5 class="card-title">E-commerce Integration</h5>
                     <p class="card-text">
-                      By adopting best practices for data protection, such as encryption and access restrictions, KodeEnd can assist organizations in ensuring the security and privacy of their data.
+                      E-commerce systems to make it easy for businesses to sell your products and services online.
                     </p>
                   </div>
                 </div>
@@ -161,7 +164,7 @@ const WebDevelopment = () => {
           </div>
 
           {/* Third row of features */}
-          <div className="mt-4">
+          {/* <div className="mt-4">
             <div class="row row-cols-1 row-cols-md-3 g-4">
               <div class="col">
                 <div class="card h-100">
@@ -173,9 +176,9 @@ const WebDevelopment = () => {
                     alt="UI/UX Design"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Data Governance</h5>
+                    <h5 class="card-title">Content & SEO</h5>
                     <p class="card-text">
-                      Kodeend may assist enterprises in developing data management rules and processes, such as data quality, metadata management, and compliance.
+                      SEO optimization and high-quality content production for website visibility and search engine ranking.
                     </p>
                   </div>
                 </div>
@@ -190,14 +193,14 @@ const WebDevelopment = () => {
                     alt="Front-End Development"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Cloud-based Services</h5>
+                    <h5 class="card-title">Graphics</h5>
                     <p class="card-text">
-                      Kodeend can provide cloud-based solutions that allow organizations to access their data and blockchain technologies from anywhere, at any time.
+                      Graphics and images that are customized to improve website design and user engagement.
                     </p>
                   </div>
                 </div>
               </div>
-              {/* <div class="col">
+              <div class="col">
                 <div class="card h-100">
                   <Image
                     src="/assets/images/service1_10.jpg"
@@ -213,9 +216,9 @@ const WebDevelopment = () => {
                     </p>
                   </div>
                 </div>
-              </div> */}
+              </div>
             </div>
-          </div>
+          </div> */}
           {/* feature section ends */}
 
           {/* get a quote section starts */}
@@ -231,16 +234,16 @@ const WebDevelopment = () => {
           {/* why our services starts */}
           <div className="layout_padding-top">
             <div className="service_heading">
-              <h2>Why Choose Our Blockchain & Big Data Services</h2>
+              <h2>Why Choose Our SEO Services</h2>
             </div>
             
             <div className="why_us">
               <p>
-                <i class="fa-solid fa-check"></i>Our team of professionals has years of experience and can give organizations the implementation knowledge they require..<br/>
-                <i class="fa-solid fa-check"></i>Kodeend can provide personalized blockchain and big data solutions for organizations based on their specific needs.<br/>
-                <i class="fa-solid fa-check"></i>Our products are built with security in mind, giving businesses peace of mind that their data is safe from cyber-attacks and illegal access.<br/>
-                <i class="fa-solid fa-check"></i>{`KodeEnd's`} solutions are scalable, which means they can expand alongside a company to meet rising data volumes and user numbers.<br/>
-                <i class="fa-solid fa-check"></i>Our solutions are budget-friendly, allowing organizations to reap the benefits of blockchain and big data without breaking the bank
+                <i class="fa-solid fa-check"></i>With years of experience, our SEO professionals can create solutions that are results-driven and specifically suited to your {`company's`} demands.<br/>
+                <i class="fa-solid fa-check"></i>We have a proven track record of raising the search engine ranks of our {`clients'`} websites and increasing organic traffic to those sites.<br/>
+                <i class="fa-solid fa-check"></i>We are aware that every company has different SEO needs, and we provide solutions that are specifically customized for your needs.<br/>
+                <i class="fa-solid fa-check"></i>With our budget-friendly SEO services, you may receive excellent results without going overboard.<br/>
+                <i class="fa-solid fa-check"></i>We work closely with our clients to ensure that their SEO objectives are met since we are dedicated to giving them the best possible customer service and satisfaction.
               </p>
             </div>
           </div>
@@ -254,6 +257,6 @@ const WebDevelopment = () => {
       </div>
     </>
   );
-};
+}
 
-export default WebDevelopment;
+export default SEO;
