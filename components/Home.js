@@ -186,6 +186,22 @@ const Home = () => {
                 <Link href="/services/web-development"> Learn More </Link>
               </div>
             </div>
+
+            <div className="box">
+                <div className="img-box">
+                  <Image src="/assets/images/nlp.png" className="img1" width={100} height={80} alt="" />
+                  <Image src="/assets/images/nlp.png" className="img2" width={100} height={80} alt="" />
+                </div>
+                <div className="detail-box">
+                  <h5>Natural Language Processing</h5>
+                  <p>
+                    Kodeend IT Solutions provides  NLP techniques for better customer service, data input automation, and meaningful customer feedback analysis. Get professional assistance right away. 
+                  </p>
+                </div>
+                <div className="btn-box2">
+                  <Link href="/services/natural-language-processing"> Learn More </Link>
+                </div>
+              </div>
           </div>
           <div className="btn-box">
             <Link href="/services"> More Services </Link>

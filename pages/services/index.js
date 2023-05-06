@@ -37,9 +37,9 @@ const index = () => {
                 <div className="btn-box2">
                   <Link href="/services/computervision"> Read More </Link>
                 </div>
-              </div>
+              </div> */}
               
-              <div className="box">
+              {/* <div className="box">
                 <div className="img-box">
                   <Image src="/assets/images/artificial-intelligence.png" className="img1" width={100} height={80} alt="" />
                   <Image src="/assets/images/artificial-intelligence.png" className="img2" width={100} height={80} alt="" />
@@ -54,24 +54,9 @@ const index = () => {
                 <div className="btn-box2">
                   <Link href="/services/artificial-intelligence"> Read More </Link>
                 </div>
-              </div>
-
-              <div className="box">
-                <div className="img-box">
-                  <Image src="/assets/images/nlp.png" className="img1" width={100} height={80} alt="" />
-                  <Image src="/assets/images/nlp.png" className="img2" width={100} height={80} alt="" />
-                </div>
-                <div className="detail-box">
-                  <h5>Natural Language Processing</h5>
-                  <p>
-                  It is a field of Artificial Intelligence that qualifies computers to analysis & understand the human language. 
-                  </p>
-                </div>
-                <div className="btn-box2">
-                  <Link href="/services/natural-language-processing"> Read More </Link>
-                </div>
               </div> */}
 
+              {/* Service One */}
               <div className="box">
                 <div className="img-box">
                   <Image src="/assets/images/web.png" className="img1" width={75} height={70} alt="web development" />
@@ -80,11 +65,28 @@ const index = () => {
                 <div className="detail-box">
                   <h5 style={{'margin-top':'30px'}}>Web Development</h5>
                   <p>
-                  Full-stack web development is offered by Kodeend IT for user-friendly websites with a seamless experience and exceptional performance.
+                    Full-stack web development is offered by Kodeend IT for user-friendly websites with a seamless experience and exceptional performance.
                   </p>
                 </div>
                 <div className="btn-box2">
                   <Link href="/services/web-development"> Learn More </Link>
+                </div>
+              </div>
+
+              {/* Service Two */}
+              <div className="box">
+                <div className="img-box">
+                  <Image src="/assets/images/nlp.png" className="img1" width={100} height={80} alt="" />
+                  <Image src="/assets/images/nlp.png" className="img2" width={100} height={80} alt="" />
+                </div>
+                <div className="detail-box">
+                  <h5>Natural Language Processing</h5>
+                  <p>
+                    Kodeend IT Solutions provides  NLP techniques for better customer service, data input automation, and meaningful customer feedback analysis. Get professional assistance right away. 
+                  </p>
+                </div>
+                <div className="btn-box2">
+                  <Link href="/services/natural-language-processing"> Learn More </Link>
                 </div>
               </div>
 
