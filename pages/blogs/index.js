@@ -90,6 +90,23 @@ const index = () => {
                 </div>
               </div>
 
+              {/* blog-5 */}
+              <div className="box">
+                <div className="img-box">
+                  <Image src="/assets/images/blog5_1.webp" width={200} height={80} className="img1" alt="" />
+                  <Image src="/assets/images/blog5_1.webp" className="img2" width={200} height={80} alt="" />
+                </div>
+                <div className="detail-box">
+                  <h5>SQA</h5>
+                  <p>
+                    Software quality assurance (SQA) is a process that ensures that developed software meets and complies with defined or standardized quality specifications.
+                  </p>
+                </div>
+                <div className="btn-box2">
+                  <Link href="/blogs/sqa"> Read More </Link>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>
