@@ -107,6 +107,23 @@ const index = () => {
                 </div>
               </div>
 
+              {/* blog-6 */}
+              <div className="box">
+                <div className="img-box">
+                  <Image src="/assets/images/blog6_0.webp" width={200} height={80} className="img1" alt="" />
+                  <Image src="/assets/images/blog6_0.webp" className="img2" width={200} height={80} alt="" />
+                </div>
+                <div className="detail-box">
+                  <h5>GPT fine-tuning</h5>
+                  <p>
+                    GPT-3 is a language model that uses deep learning to produce human-like text.
+                  </p>
+                </div>
+                <div className="btn-box2">
+                  <Link href="/blogs/gpt-fine-tuning"> Read More </Link>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>
