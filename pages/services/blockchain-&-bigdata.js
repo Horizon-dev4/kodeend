@@ -32,11 +32,11 @@ const WebDevelopment = () => {
               </div>
               <div className="col-md-6">
                 <Image
-                  src="/assets/images/service1_1.jpg"
+                  src="/assets/images/service4_1.jpg"
                   className="img-fluid"
                   width={700}
                   height={600}
-                  alt="web development"
+                  alt="Blockchain and Big Data"
                 />
               </div>
             </div>
@@ -52,11 +52,11 @@ const WebDevelopment = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_2.jpg"
+                    src="/assets/images/service4_2.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="UI/UX Design"
+                    alt="Custom Blockchain Development"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Custom Blockchain Development</h5>
@@ -69,11 +69,11 @@ const WebDevelopment = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_3.jpg"
+                    src="/assets/images/service4_3.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="Front-End Development"
+                    alt="Blockchain Consulting"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Blockchain Consulting</h5>
@@ -86,11 +86,11 @@ const WebDevelopment = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_4.jpg"
+                    src="/assets/images/service4_4.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="Back-End Development"
+                    alt="Smart Contract Development"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Smart Contract Development</h5>
@@ -109,11 +109,11 @@ const WebDevelopment = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_5.jpg"
+                    src="/assets/images/service4_5.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="UI/UX Design"
+                    alt="Big Data Analytics"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Big Data Analytics</h5>
@@ -126,11 +126,11 @@ const WebDevelopment = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_6.jpg"
+                    src="/assets/images/service4_6.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="Front-End Development"
+                    alt="Data Visualization"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Data Visualization</h5>
@@ -143,11 +143,11 @@ const WebDevelopment = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_7.jpg"
+                    src="/assets/images/service4_7.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="Back-End Development"
+                    alt="Data Security"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Data Security</h5>
@@ -166,11 +166,11 @@ const WebDevelopment = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_8.jpg"
+                    src="/assets/images/service4_8.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="UI/UX Design"
+                    alt="Data Governance"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Data Governance</h5>
@@ -183,11 +183,11 @@ const WebDevelopment = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_9.jpg"
+                    src="/assets/images/service4_9.png"
                     class="card-img-top"
                     width={400}
                     height={220}
-                    alt="Front-End Development"
+                    alt="Cloud-based Services"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Cloud-based Services</h5>

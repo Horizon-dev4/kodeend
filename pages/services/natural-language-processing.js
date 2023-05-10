@@ -32,11 +32,11 @@ const NaturalLanguageProcessing = () => {
               </div>
               <div className="col-md-6">
                 <Image
-                  src="/assets/images/service1_1.jpg"
+                  src="/assets/images/service3_1.jpg"
                   className="img-fluid"
                   width={700}
                   height={600}
-                  alt="web development"
+                  alt="Natural Language Processing"
                 />
               </div>
             </div>
@@ -52,11 +52,11 @@ const NaturalLanguageProcessing = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_2.jpg"
+                    src="/assets/images/service3_2.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="UI/UX Design"
+                    alt="Entity recognition"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Entity recognition</h5>
@@ -70,11 +70,11 @@ const NaturalLanguageProcessing = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_3.jpg"
+                    src="/assets/images/service3_3.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="Front-End Development"
+                    alt="Language translation"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Language translation</h5>
@@ -88,11 +88,11 @@ const NaturalLanguageProcessing = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_4.jpg"
+                    src="/assets/images/service3_4.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="Back-End Development"
+                    alt="Sentiment analysis"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Sentiment analysis</h5>
@@ -111,14 +111,14 @@ const NaturalLanguageProcessing = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_5.jpg"
+                    src="/assets/images/service3_5.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="UI/UX Design"
+                    alt="Text classification"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Text classification</h5>
+                    <h5 class="card-title"></h5>
                     <p class="card-text">
                       Text can be classified according to its topic, content type, or language. Automate data input and content management.
                     </p>
@@ -129,14 +129,14 @@ const NaturalLanguageProcessing = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_6.jpg"
+                    src="/assets/images/service3_6.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="Front-End Development"
+                    alt="Voice recognition"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Voice recognition</h5>
+                    <h5 class="card-title"></h5>
                     <p class="card-text">
                       Recognize and transcribe spoken language. Improve accessibility by automating voice-based consumer interactions.
                     </p>
@@ -146,11 +146,11 @@ const NaturalLanguageProcessing = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_7.jpg"
+                    src="/assets/images/service3_7.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="Back-End Development"
+                    alt="Data mining"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Data mining</h5>
@@ -169,11 +169,11 @@ const NaturalLanguageProcessing = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_8.jpg"
+                    src="/assets/images/service3_8.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="UI/UX Design"
+                    alt="Chatbot development"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Chatbot development</h5>
@@ -183,40 +183,6 @@ const NaturalLanguageProcessing = () => {
                   </div>
                 </div>
               </div>
-              {/* <div class="col">
-                <div class="card h-100">
-                  <Image
-                    src="/assets/images/service1_9.jpg"
-                    class="card-img-top"
-                    width={400}
-                    height={220}
-                    alt="Front-End Development"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Graphics</h5>
-                    <p class="card-text">
-                      Graphics and images that are customized to improve website design and user engagement.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card h-100">
-                  <Image
-                    src="/assets/images/service1_10.jpg"
-                    class="card-img-top"
-                    width={200}
-                    height={220}
-                    alt="Back-End Development"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Website Maintenance, Support & Security</h5>
-                    <p class="card-text">
-                      Regular website maintenance, technical support, and security upgrades to ensure peak website performance and security.
-                    </p>
-                  </div>
-                </div>
-              </div> */}
             </div>
           </div>
           {/* feature section ends */}

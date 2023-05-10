@@ -36,7 +36,7 @@ const ArtificialIntelligence = () => {
                   className="img-fluid"
                   width={700}
                   height={600}
-                  alt="web development"
+                  alt="artificial intelligence"
                 />
               </div>
             </div>

@@ -21,23 +21,23 @@ const SEO = () => {
           <div>
             <div className="heading_container">
               <h2>
-              Enhance Your Online Visibility with Professional SEO Services
+                Enhance Your Online Visibility with Professional SEO Services
               </h2>
             </div>
 
             <div className="row" >
               <div className="col-md-6 srvc_hero_align">
                 <p className="text-start">
-                As part of our services, we can enhance a {`website's`} content, structure, and other elements to make them more appealing to search engines. The services are intended to help businesses optimize their search engine rankings, boost website traffic, and ultimately increase their online visibility and profitability.
+                  As part of our services, we can enhance a {`website's`} content, structure, and other elements to make them more appealing to search engines. The services are intended to help businesses optimize their search engine rankings, boost website traffic, and ultimately increase their online visibility and profitability.
                 </p>
               </div>
               <div className="col-md-6">
                 <Image
-                  src="/assets/images/service1_1.jpg"
+                  src="/assets/images/service6_1.jpg"
                   className="img-fluid"
                   width={700}
                   height={600}
-                  alt="web development"
+                  alt="SEO Services"
                 />
               </div>
             </div>
@@ -53,11 +53,11 @@ const SEO = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_2.jpg"
+                    src="/assets/images/service6_2.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="UI/UX Design"
+                    alt="Keyword Research"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Keyword Research</h5>
@@ -71,11 +71,11 @@ const SEO = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_3.jpg"
+                    src="/assets/images/service6_3.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="Front-End Development"
+                    alt="On-page Optimization"
                   />
                   <div class="card-body">
                     <h5 class="card-title">On-page Optimization</h5>
@@ -89,11 +89,11 @@ const SEO = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_4.jpg"
+                    src="/assets/images/service6_4.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="Back-End Development"
+                    alt="Off-page Optimization"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Off-page Optimization</h5>
@@ -112,11 +112,11 @@ const SEO = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_5.jpg"
+                    src="/assets/images/service6_5.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="UI/UX Design"
+                    alt="Analytics and Reporting"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Analytics and Reporting</h5>
@@ -129,11 +129,11 @@ const SEO = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_6.jpg"
+                    src="/assets/images/service6_6.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="Front-End Development"
+                    alt="Local SEO"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Local SEO</h5>
@@ -143,7 +143,7 @@ const SEO = () => {
                   </div>
                 </div>
               </div>
-              <div class="col">
+              {/* <div class="col">
                 <div class="card h-100">
                   <Image
                     src="/assets/images/service1_7.jpg"
@@ -159,7 +159,7 @@ const SEO = () => {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 

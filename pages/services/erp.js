@@ -32,11 +32,11 @@ const ERP = () => {
               </div>
               <div className="col-md-6">
                 <Image
-                  src="/assets/images/service1_1.jpg"
+                  src="/assets/images/service5_1.jpg"
                   className="img-fluid"
                   width={700}
                   height={600}
-                  alt="web development"
+                  alt="ERP Solutions"
                 />
               </div>
             </div>
@@ -52,11 +52,11 @@ const ERP = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_2.jpg"
+                    src="/assets/images/service5_2.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="UI/UX Design"
+                    alt="Customizable ERP"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Customizable ERP</h5>
@@ -70,11 +70,11 @@ const ERP = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_3.jpg"
+                    src="/assets/images/service5_3.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="Front-End Development"
+                    alt="Expert Consultation"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Expert Consultation</h5>
@@ -88,11 +88,11 @@ const ERP = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_4.jpg"
+                    src="/assets/images/service5_4.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="Back-End Development"
+                    alt="Cloud-based Solutions"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Cloud-based Solutions</h5>
@@ -111,11 +111,11 @@ const ERP = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_5.jpg"
+                    src="/assets/images/service5_5.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="UI/UX Design"
+                    alt="Integration with Third-Party Applications"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Integration with Third-Party Applications</h5>
@@ -128,11 +128,11 @@ const ERP = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_6.jpg"
+                    src="/assets/images/service5_6.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="Front-End Development"
+                    alt="Advanced Analytics and Reporting"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Advanced Analytics and Reporting</h5>
@@ -142,7 +142,7 @@ const ERP = () => {
                   </div>
                 </div>
               </div>
-              <div class="col">
+              {/* <div class="col">
                 <div class="card h-100">
                   <Image
                     src="/assets/images/service1_7.jpg"
@@ -158,7 +158,7 @@ const ERP = () => {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 

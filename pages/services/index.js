@@ -122,7 +122,7 @@ const index = () => {
                   </p>
                 </div>
                 <div className="btn-box2">
-                  <Link href="/services/erp"> Learn More </Link>
+                  <Link href="/services/seo"> Learn More </Link>
                 </div>
               </div>
 

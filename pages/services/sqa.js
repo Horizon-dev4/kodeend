@@ -33,11 +33,11 @@ const SQA = () => {
               </div>
               <div className="col-md-6">
                 <Image
-                  src="/assets/images/service1_1.jpg"
+                  src="/assets/images/service7_1.jpg"
                   className="img-fluid"
                   width={700}
                   height={600}
-                  alt="web development"
+                  alt="Software quality assurance"
                 />
               </div>
             </div>
@@ -53,11 +53,11 @@ const SQA = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_2.jpg"
+                    src="/assets/images/service7_2.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="UI/UX Design"
+                    alt="Comprehensive Testing"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Comprehensive Testing</h5>
@@ -71,11 +71,11 @@ const SQA = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_3.jpg"
+                    src="/assets/images/service7_3.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="Front-End Development"
+                    alt="Test Automation"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Test Automation</h5>
@@ -89,11 +89,11 @@ const SQA = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_4.jpg"
+                    src="/assets/images/service7_4.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="Back-End Development"
+                    alt="Performance Testing"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Performance Testing</h5>
@@ -112,11 +112,11 @@ const SQA = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_5.jpg"
+                    src="/assets/images/service7_5.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="UI/UX Design"
+                    alt="Security Testing"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Security Testing</h5>
@@ -129,11 +129,11 @@ const SQA = () => {
               <div class="col">
                 <div class="card h-100">
                   <Image
-                    src="/assets/images/service1_6.jpg"
+                    src="/assets/images/service7_6.png"
                     class="card-img-top"
                     width={200}
                     height={220}
-                    alt="Front-End Development"
+                    alt="Continuous Integration"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Continuous Integration</h5>
@@ -143,7 +143,7 @@ const SQA = () => {
                   </div>
                 </div>
               </div>
-              <div class="col">
+              {/* <div class="col">
                 <div class="card h-100">
                   <Image
                     src="/assets/images/service1_7.jpg"
@@ -159,7 +159,7 @@ const SQA = () => {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 
