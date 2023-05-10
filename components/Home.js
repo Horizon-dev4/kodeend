@@ -187,6 +187,23 @@ const Home = () => {
               </div>
             </div>
 
+            {/* Service Two */}
+            <div className="box">
+                <div className="img-box">
+                  <Image src="/assets/images/artificial-intelligence.png" className="img1" width={100} height={80} alt="" />
+                  <Image src="/assets/images/artificial-intelligence.png" className="img2" width={100} height={80} alt="" />
+                </div>
+                <div className="detail-box">
+                  <h5>AI & ML</h5>
+                  <p>
+                    To help businesses remain competitive, Kodeend IT Solutions provides AI services including machine learning and computer vision. 
+                  </p>
+                </div>
+                <div className="btn-box2">
+                  <Link href="/services/artificial-intelligence"> Learn More </Link>
+                </div>
+              </div>
+
             <div className="box">
                 <div className="img-box">
                   <Image src="/assets/images/nlp.png" className="img1" width={100} height={80} alt="" />

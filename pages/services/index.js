@@ -21,40 +21,8 @@ const index = () => {
               <h2>Our Services</h2>
             </div>
             <div className="service_container">
-              {/* <div className="box">
-                <div className="img-box">
-                  <Image src="/assets/images/computer-vision1.png" width={100} height={80} className="img1" alt="" />
-                  <Image src="/assets/images/computer-vision1.png" className="img2" width={100} height={80} alt="" />
-                </div>
-                <div className="detail-box">
-                  <h5>Computer Vision</h5>
-                  <p>
-                    Computer vision is a field of Artificial Intelligence (Ai)
-                    that unlock insights from digital images, videos and other
-                    visual inputs.
-                  </p>
-                </div>
-                <div className="btn-box2">
-                  <Link href="/services/computervision"> Read More </Link>
-                </div>
-              </div> */}
               
-              {/* <div className="box">
-                <div className="img-box">
-                  <Image src="/assets/images/artificial-intelligence.png" className="img1" width={100} height={80} alt="" />
-                  <Image src="/assets/images/artificial-intelligence.png" className="img2" width={100} height={80} alt="" />
-                </div>
-                <div className="detail-box">
-                  <h5>Artificial Intelligence (AI)</h5>
-                  <p>
-                    Artificial Intelligence is vastly using now a days.
-                    Artificial Intelligence also known as rMachine Intelligence.
-                  </p>
-                </div>
-                <div className="btn-box2">
-                  <Link href="/services/artificial-intelligence"> Read More </Link>
-                </div>
-              </div> */}
+              
 
               {/* Service One */}
               <div className="box">
@@ -70,6 +38,23 @@ const index = () => {
                 </div>
                 <div className="btn-box2">
                   <Link href="/services/web-development"> Learn More </Link>
+                </div>
+              </div>
+
+              {/* Service Two */}
+              <div className="box">
+                <div className="img-box">
+                  <Image src="/assets/images/artificial-intelligence.png" className="img1" width={100} height={80} alt="" />
+                  <Image src="/assets/images/artificial-intelligence.png" className="img2" width={100} height={80} alt="" />
+                </div>
+                <div className="detail-box">
+                  <h5>AI & ML</h5>
+                  <p>
+                    To help businesses remain competitive, Kodeend IT Solutions provides AI services including machine learning and computer vision. 
+                  </p>
+                </div>
+                <div className="btn-box2">
+                  <Link href="/services/artificial-intelligence"> Learn More </Link>
                 </div>
               </div>
 
