@@ -18,13 +18,13 @@ const gptFineTuning = () => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         {/* Site Metas */}
-        <meta name="keywords" content="computervision, artificialintelligence, technology, software " />
-        <meta name="description" content="The realm of computer vision, the technology that enables computers to interpret visual input like people do. Kodeend IT Solutions AI services." key="desc"/>
+        <meta name="keywords" content="GPT fine-tuning, chatbots, question-answering systems, expert models, ustomer support, natural language processing (NLP), machine learning, AI solutions, Kodeend IT Solutions." />
+        <meta name="description" content="GPT Fine-Tuning Services Can Help Streamline Your Business Meta description: Kodeend IT Solutions GPT fine-tuning services to create chatbots, Q&A systems, and expert models to streamline business & deliver excellent customer support." key="desc"/>
         <meta name="author" content="" />
         <meta name="robots" content="index, follow" />
-        <title>Computer Vision in AI technologies |  Kodeend IT Solutions</title>
+        <title>GPT Fine-Tuning Services Can Help Streamline Your Business</title>
 
-        <link rel="canonical" href="https://www.kodeend.com/blogs/computer-vision" />
+        <link rel="canonical" href="https://www.kodeend.com/blogs/gpt-fine-tuning" />
         {/* favicon adding */}
         <link rel="shortcut icon" href="/assets/images/favicon.png" title="Favicon" />
       </Head>

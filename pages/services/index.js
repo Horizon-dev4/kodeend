@@ -99,7 +99,7 @@ const index = () => {
                 <div className="detail-box">
                   <h5>Block chain & Big Data</h5>
                   <p>
-                    Analyzing massive volumes of data in order to generate useful insights and make smart choices. We can assist your company in identifying new market prospects and increasing customer engagement.
+                    Analyzing massive volumes of data in order to generate useful insights and make smart choices. We can assist your company in identifying new market prospects.
                   </p>
                 </div>
                 <div className="btn-box2">
@@ -150,7 +150,7 @@ const index = () => {
                 <div className="detail-box">
                   <h5>SQA</h5>
                   <p>
-                    Koedend IT Solutions is an internationally recognized expert in providing Software Quality Assurance (SQA) services
+                    Kodeend IT Solutions is an internationally recognized expert in providing Software Quality Assurance (SQA) services
                   </p>
                 </div>
                 <div className="btn-box2">
