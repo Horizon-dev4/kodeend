@@ -12,8 +12,9 @@ const index = () => {
         <div className="hero_area">
           {/* header section strats */}
           <Header />
-          {/* end header section */}
+          {/* header section ends */}
         </div>
+
         {/* service section */}
         <section className="service_section layout_padding">
           <div className="container">
@@ -21,10 +22,9 @@ const index = () => {
               <h2>Our Services</h2>
             </div>
             <div className="service_container">
-              
-              
 
               {/* Service One */}
+              {/* Web Dev */}
               <div className="box">
                 <div className="img-box">
                   <Image src="/assets/images/web.png" className="img1" width={75} height={70} alt="web development" />
