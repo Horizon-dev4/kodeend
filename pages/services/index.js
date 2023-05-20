@@ -33,7 +33,7 @@ const index = () => {
                 <div className="detail-box">
                   <h5 style={{'margin-top':'30px'}}>Web Development</h5>
                   <p>
-                    Full-stack web development is offered by Kodeend IT for user-friendly websites with a seamless experience and exceptional performance.
+                    Full-stack web development is offered by Kodeend IT for user-friendly websites with a seamless experience and exceptional performance. performance*
                   </p>
                 </div>
                 <div className="btn-box2">
@@ -50,7 +50,7 @@ const index = () => {
                 <div className="detail-box">
                   <h5>AI & ML</h5>
                   <p>
-                    To help businesses remain competitive, Kodeend IT Solutions provides AI services including machine learning and computer vision. 
+                    To help businesses remain competitive, Kodeend IT Solutions provides AI services including machine learning and computer vision. vision
                   </p>
                 </div>
                 <div className="btn-box2">
